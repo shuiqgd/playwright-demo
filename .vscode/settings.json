@@ -1,0 +1,7 @@
+{
+    "python.defaultInterpreterPath": "C:\\Users\\96403\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
+    "python.analysis.extraPaths": [
+        "C:\\Users\\96403\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\site-packages"
+    ],
+    "python.languageServer": "Pylance"
+}

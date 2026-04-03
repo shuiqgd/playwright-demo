@@ -1,0 +1,18 @@
+0 verbose cli C:\tools\Node.js\node.exe C:\tools\Node.js\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.6.1
+2 info using node@v24.11.0
+3 silly config load:file:C:\tools\Node.js\node_modules\npm\npmrc
+4 silly config load:file:C:\test\.npmrc
+5 silly config load:file:C:\Users\96403\.npmrc
+6 silly config load:file:C:\tools\Node\node_global\etc\npmrc
+7 verbose title npm exec pyright c:\test\.agent\skills\test_case_template_generator\scripts\generate_test_cases.py
+8 verbose argv "exec" "--" "pyright" "c:\\test\\.agent\\skills\\test_case_template_generator\\scripts\\generate_test_cases.py"
+9 verbose logfile logs-max:10 dir:C:\test\npm_cache\_logs\2026-03-12T06_13_42_080Z-
+10 verbose logfile C:\test\npm_cache\_logs\2026-03-12T06_13_42_080Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 http fetch GET 200 https://registry.npmjs.org/npm 5165ms
+14 http fetch GET 200 https://registry.npmjs.org/pyright 5418ms (cache miss)
+15 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+16 verbose Could not read global path C:\tools\Node\node_global, ignoring
+17 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
