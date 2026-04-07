@@ -26,3 +26,5 @@ jobs:
       - name: Run script
         run: |
           python tests/test_algo_flow.py
+
+
