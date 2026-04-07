@@ -30,9 +30,17 @@ jobs:
         run: |
           python tests/test_algo_flow.py
 
+      - name: List files
+        if: always()
+        run: |
+          pwd
+          ls -la
+          find . -name "*.html"
+
       - name: Upload test report
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: test-report
           path: Test_Report.html
+          
