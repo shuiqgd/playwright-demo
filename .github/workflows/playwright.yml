@@ -28,7 +28,7 @@ jobs:
 
       - name: Run script
         run: |
-          python tests/test_algo_flow.py
+          python tests/test_homepage_standalone.py
 
       - name: List files
         if: always()
