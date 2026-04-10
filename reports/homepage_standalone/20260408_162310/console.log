@@ -1,0 +1,248 @@
+[2026-04-08 16:23:31] [log] 初始化uid 1775636611468
+[2026-04-08 16:23:31] [log] 触发赋值 null
+[2026-04-08 16:23:31] [info] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://192.168.88.231:19025/fonts/element-icons.535877f5.woff
+[2026-04-08 16:23:46] [log] 校验成功
+[2026-04-08 16:23:48] [log] 密码强度：高
+[2026-04-08 16:23:50] [log] -----------项目获取成功
+[2026-04-08 16:23:52] [log] -----------组织结构获取成功
+[2026-04-08 16:23:53] [log] -----------风机状态获取成功
+[2026-04-08 16:23:53] [log] -----------光伏状态获取成功
+[2026-04-08 16:23:54] [error] Failed to load resource: the server responded with a status of 460 (Client Error (460))
+[2026-04-08 16:23:54] [error] 获取储能状态失败 Error: Request failed with status code 460
+    at e.exports (https://192.168.88.231:19025/js/chunk-vendors.f5a45657.js:30:63927)
+    at e.exports (https://192.168.88.231:19025/js/chunk-vendors.f5a45657.js:16:5293)
+    at f.onreadystatechange (https://192.168.88.231:19025/js/chunk-vendors.f5a45657.js:30:16854)
+[2026-04-08 16:23:54] [error] Failed to load resource: the server responded with a status of 460 (Client Error (460))
+[2026-04-08 16:23:54] [error] 获取储能状态失败 Error: Request failed with status code 460
+    at e.exports (https://192.168.88.231:19025/js/chunk-vendors.f5a45657.js:30:63927)
+    at e.exports (https://192.168.88.231:19025/js/chunk-vendors.f5a45657.js:16:5293)
+    at f.onreadystatechange (https://192.168.88.231:19025/js/chunk-vendors.f5a45657.js:30:16854)
+[2026-04-08 16:23:55] [log] -----------报警级别获取成功
+[2026-04-08 16:23:55] [log] -----------报警弹窗配置数据获取成功 []
+[2026-04-08 16:23:56] [log] {id: undefined, username: undefined, password: undefined, nickname: undefined, headImgUrl: undefined} -----------用户信息
+[2026-04-08 16:23:58] [log] {companies: undefined, companyPer: undefined, farmPer: undefined, farms: undefined, project: undefined} -----------用户权限信息
+[2026-04-08 16:23:58] [log] 数据填充完毕,准备进入系统
+[2026-04-08 16:24:01] [log] Loaded claygl, version 1.3.0
+[2026-04-08 16:24:01] [log] Loaded echarts, version 4.9.0
+[2026-04-08 16:24:03] [log] 视频播放结束
+[2026-04-08 16:24:08] [error] 未找到historyCtrastCurve
+[2026-04-08 16:24:08] [log] -----------homePage: SMART
+[2026-04-08 16:24:08] [log] -----------payload: {component: Promise, hiddenNav: true}
+[2026-04-08 16:24:46] [log] -----------homePage: SMART
+[2026-04-08 16:24:46] [log] -----------payload: {component: Promise, hiddenNav: true}
+[2026-04-08 16:24:47] [log] 触发赋值 {flag: false, dev: , tag: , tagName: , factor: 1}
+[2026-04-08 16:24:47] [info] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://192.168.88.231:19025/fonts/projt.1726685c.ttf
+[2026-04-08 16:24:47] [info] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://192.168.88.231:19025/fonts/YouSheBiaoTiHei-title.1726685c.ttf
+[2026-04-08 16:24:47] [info] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://192.168.88.231:19025/config/icon/iconfont.woff2?t=1767578353959
+[2026-04-08 16:24:47] [pageerror] The play() request was interrupted because the media was removed from the document. https://goo.gl/LdLk22
+[2026-04-08 16:24:53] [error] 获取设备状态数据失败 TypeError: Cannot read properties of undefined (reading 'data')
+    at https://192.168.88.231:19025/js/app.c59a49fd.js:1:208598
+    at async a.getStateData (https://192.168.88.231:19025/js/chunk-8ce48fde.3cd31aec.js:1:16393)
+    at async c.start (https://192.168.88.231:19025/js/app.c59a49fd.js:1:223852)
+    at async Object.t [as create] (https://192.168.88.231:19025/js/app.c59a49fd.js:1:224131)
+[2026-04-08 16:24:53] [error] 获取实时数据失败 TypeError: Cannot read properties of undefined (reading 'data')
+    at https://192.168.88.231:19025/js/app.c59a49fd.js:1:208598
+    at async a.getRealData (https://192.168.88.231:19025/js/chunk-8ce48fde.3cd31aec.js:1:17269)
+    at async c.start (https://192.168.88.231:19025/js/app.c59a49fd.js:1:223852)
+    at async Object.t [as create] (https://192.168.88.231:19025/js/app.c59a49fd.js:1:224131)
+[2026-04-08 16:24:53] [error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2026-04-08 16:25:35] [error] 获取设备状态数据失败 TypeError: Cannot read properties of undefined (reading 'data')
+    at https://192.168.88.231:19025/js/app.c59a49fd.js:1:208598
+    at async a.getStateData (https://192.168.88.231:19025/js/chunk-8ce48fde.3cd31aec.js:1:16393)
+    at async c.start (https://192.168.88.231:19025/js/app.c59a49fd.js:1:223852)
+[2026-04-08 16:25:36] [error] 获取实时数据失败 TypeError: Cannot read properties of undefined (reading 'data')
+    at https://192.168.88.231:19025/js/app.c59a49fd.js:1:208598
+    at async a.getRealData (https://192.168.88.231:19025/js/chunk-8ce48fde.3cd31aec.js:1:17269)
+    at async c.start (https://192.168.88.231:19025/js/app.c59a49fd.js:1:223852)
+[2026-04-08 16:27:35] [error] 获取设备状态数据失败 TypeError: Cannot read properties of undefined (reading 'data')
+    at https://192.168.88.231:19025/js/app.c59a49fd.js:1:208598
+    at async a.getStateData (https://192.168.88.231:19025/js/chunk-8ce48fde.3cd31aec.js:1:16393)
+    at async c.start (https://192.168.88.231:19025/js/app.c59a49fd.js:1:223852)
+[2026-04-08 16:27:55] [error] 获取实时数据失败 TypeError: Cannot read properties of undefined (reading 'data')
+    at https://192.168.88.231:19025/js/app.c59a49fd.js:1:208598
+    at async a.getRealData (https://192.168.88.231:19025/js/chunk-8ce48fde.3cd31aec.js:1:17269)
+    at async c.start (https://192.168.88.231:19025/js/app.c59a49fd.js:1:223852)
+[2026-04-08 16:28:00] [error] 获取设备状态数据失败 TypeError: Cannot read properties of undefined (reading 'data')
+    at https://192.168.88.231:19025/js/app.c59a49fd.js:1:208598
+    at async a.getStateData (https://192.168.88.231:19025/js/chunk-8ce48fde.3cd31aec.js:1:16393)
+    at async c.start (https://192.168.88.231:19025/js/app.c59a49fd.js:1:223852)
+[2026-04-08 16:28:30] [error] 获取实时数据失败 TypeError: Cannot read properties of undefined (reading 'data')
+    at https://192.168.88.231:19025/js/app.c59a49fd.js:1:208598
+    at async a.getRealData (https://192.168.88.231:19025/js/chunk-8ce48fde.3cd31aec.js:1:17269)
+    at async c.start (https://192.168.88.231:19025/js/app.c59a49fd.js:1:223852)
+[2026-04-08 16:28:36] [error] 获取实时数据失败 TypeError: Cannot read properties of undefined (reading 'data')
+    at https://192.168.88.231:19025/js/app.c59a49fd.js:1:208598
+    at async a.getRealData (https://192.168.88.231:19025/js/chunk-8ce48fde.3cd31aec.js:1:17269)
+    at async c.start (https://192.168.88.231:19025/js/app.c59a49fd.js:1:223852)
+[2026-04-08 16:29:11] [error] 获取设备状态数据失败 TypeError: Cannot read properties of undefined (reading 'data')
+    at https://192.168.88.231:19025/js/app.c59a49fd.js:1:208598
+    at async a.getStateData (https://192.168.88.231:19025/js/chunk-8ce48fde.3cd31aec.js:1:16393)
+    at async c.start (https://192.168.88.231:19025/js/app.c59a49fd.js:1:223852)
+[2026-04-08 16:29:36] [error] 获取设备状态数据失败 TypeError: Cannot read properties of undefined (reading 'data')
+    at https://192.168.88.231:19025/js/app.c59a49fd.js:1:208598
+    at async a.getStateData (https://192.168.88.231:19025/js/chunk-8ce48fde.3cd31aec.js:1:16393)
+    at async c.start (https://192.168.88.231:19025/js/app.c59a49fd.js:1:223852)
+[2026-04-08 16:29:42] [error] 获取设备状态数据失败 TypeError: Cannot read properties of undefined (reading 'data')
+    at https://192.168.88.231:19025/js/app.c59a49fd.js:1:208598
+    at async a.getStateData (https://192.168.88.231:19025/js/chunk-8ce48fde.3cd31aec.js:1:16393)
+    at async c.start (https://192.168.88.231:19025/js/app.c59a49fd.js:1:223852)
+[2026-04-08 16:30:09] [error] 获取设备状态数据失败 TypeError: Cannot read properties of undefined (reading 'data')
+    at https://192.168.88.231:19025/js/app.c59a49fd.js:1:208598
+    at async a.getStateData (https://192.168.88.231:19025/js/chunk-8ce48fde.3cd31aec.js:1:16393)
+    at async c.start (https://192.168.88.231:19025/js/app.c59a49fd.js:1:223852)
+[2026-04-08 16:30:13] [error] 获取实时数据失败 TypeError: Cannot read properties of undefined (reading 'data')
+    at https://192.168.88.231:19025/js/app.c59a49fd.js:1:208598
+    at async a.getRealData (https://192.168.88.231:19025/js/chunk-8ce48fde.3cd31aec.js:1:17269)
+    at async c.start (https://192.168.88.231:19025/js/app.c59a49fd.js:1:223852)
+[2026-04-08 16:30:19] [error] 获取实时数据失败 TypeError: Cannot read properties of undefined (reading 'data')
+    at https://192.168.88.231:19025/js/app.c59a49fd.js:1:208598
+    at async a.getRealData (https://192.168.88.231:19025/js/chunk-8ce48fde.3cd31aec.js:1:17269)
+    at async c.start (https://192.168.88.231:19025/js/app.c59a49fd.js:1:223852)
+[2026-04-08 16:30:20] [error] 获取设备状态数据失败 TypeError: Cannot read properties of undefined (reading 'data')
+    at https://192.168.88.231:19025/js/app.c59a49fd.js:1:208598
+    at async a.getStateData (https://192.168.88.231:19025/js/chunk-8ce48fde.3cd31aec.js:1:16393)
+    at async c.start (https://192.168.88.231:19025/js/app.c59a49fd.js:1:223852)
+[2026-04-08 16:30:24] [error] 获取安防报警数据失败 TypeError: Cannot read properties of undefined (reading 'data')
+    at https://192.168.88.231:19025/js/app.c59a49fd.js:1:208598
+    at async a.getSecurityAlarm (https://192.168.88.231:19025/js/chunk-8ce48fde.3cd31aec.js:1:18969)
+    at async c.start (https://192.168.88.231:19025/js/app.c59a49fd.js:1:223852)
+[2026-04-08 16:30:24] [error] Failed to load resource: net::ERR_TIMED_OUT
+[2026-04-08 16:30:25] [error] 获取实时数据失败 TypeError: Cannot read properties of undefined (reading 'data')
+    at https://192.168.88.231:19025/js/app.c59a49fd.js:1:208598
+    at async a.getRealData (https://192.168.88.231:19025/js/chunk-8ce48fde.3cd31aec.js:1:17269)
+    at async c.start (https://192.168.88.231:19025/js/app.c59a49fd.js:1:223852)
+[2026-04-08 16:30:26] [error] 获取设备状态数据失败 TypeError: Cannot read properties of undefined (reading 'data')
+    at https://192.168.88.231:19025/js/app.c59a49fd.js:1:208598
+    at async a.getStateData (https://192.168.88.231:19025/js/chunk-8ce48fde.3cd31aec.js:1:16393)
+    at async c.start (https://192.168.88.231:19025/js/app.c59a49fd.js:1:223852)
+[2026-04-08 16:30:31] [error] 获取实时数据失败 TypeError: Cannot read properties of undefined (reading 'data')
+    at https://192.168.88.231:19025/js/app.c59a49fd.js:1:208598
+    at async a.getRealData (https://192.168.88.231:19025/js/chunk-8ce48fde.3cd31aec.js:1:17269)
+    at async c.start (https://192.168.88.231:19025/js/app.c59a49fd.js:1:223852)
+[2026-04-08 16:30:32] [error] 获取设备状态数据失败 TypeError: Cannot read properties of undefined (reading 'data')
+    at https://192.168.88.231:19025/js/app.c59a49fd.js:1:208598
+    at async a.getStateData (https://192.168.88.231:19025/js/chunk-8ce48fde.3cd31aec.js:1:16393)
+    at async c.start (https://192.168.88.231:19025/js/app.c59a49fd.js:1:223852)
+[2026-04-08 16:30:37] [error] 获取实时数据失败 TypeError: Cannot read properties of undefined (reading 'data')
+    at https://192.168.88.231:19025/js/app.c59a49fd.js:1:208598
+    at async a.getRealData (https://192.168.88.231:19025/js/chunk-8ce48fde.3cd31aec.js:1:17269)
+    at async c.start (https://192.168.88.231:19025/js/app.c59a49fd.js:1:223852)
+[2026-04-08 16:30:38] [error] 获取设备状态数据失败 TypeError: Cannot read properties of undefined (reading 'data')
+    at https://192.168.88.231:19025/js/app.c59a49fd.js:1:208598
+    at async a.getStateData (https://192.168.88.231:19025/js/chunk-8ce48fde.3cd31aec.js:1:16393)
+    at async c.start (https://192.168.88.231:19025/js/app.c59a49fd.js:1:223852)
+[2026-04-08 16:30:39] [error] 获取数据失败 TypeError: Cannot read properties of undefined (reading 'data')
+    at https://192.168.88.231:19025/js/app.c59a49fd.js:1:208598
+    at async a.getData (https://192.168.88.231:19025/js/chunk-c7ddc5a0.e4b576b0.js:1:84059)
+    at async c.start (https://192.168.88.231:19025/js/app.c59a49fd.js:1:223852)
+[2026-04-08 16:30:39] [error] Failed to load resource: net::ERR_TIMED_OUT
+[2026-04-08 16:30:43] [error] 获取实时数据失败 TypeError: Cannot read properties of undefined (reading 'data')
+    at https://192.168.88.231:19025/js/app.c59a49fd.js:1:208598
+    at async a.getRealData (https://192.168.88.231:19025/js/chunk-8ce48fde.3cd31aec.js:1:17269)
+    at async c.start (https://192.168.88.231:19025/js/app.c59a49fd.js:1:223852)
+[2026-04-08 16:30:44] [error] 获取设备状态数据失败 TypeError: Cannot read properties of undefined (reading 'data')
+    at https://192.168.88.231:19025/js/app.c59a49fd.js:1:208598
+    at async a.getStateData (https://192.168.88.231:19025/js/chunk-8ce48fde.3cd31aec.js:1:16393)
+    at async c.start (https://192.168.88.231:19025/js/app.c59a49fd.js:1:223852)
+[2026-04-08 16:30:49] [error] 获取摄像头报警数据失败 TypeError: Cannot read properties of undefined (reading 'data')
+    at https://192.168.88.231:19025/js/app.c59a49fd.js:1:208598
+    at async a.getCameraAlarm (https://192.168.88.231:19025/js/chunk-8ce48fde.3cd31aec.js:1:18626)
+    at async c.start (https://192.168.88.231:19025/js/app.c59a49fd.js:1:223852)
+[2026-04-08 16:30:49] [error] Failed to load resource: net::ERR_TIMED_OUT
+[2026-04-08 16:30:54] [error] 获取实时数据失败 TypeError: Cannot read properties of undefined (reading 'data')
+    at https://192.168.88.231:19025/js/app.c59a49fd.js:1:208598
+    at async a.getRealData (https://192.168.88.231:19025/js/chunk-8ce48fde.3cd31aec.js:1:17269)
+    at async c.start (https://192.168.88.231:19025/js/app.c59a49fd.js:1:223852)
+[2026-04-08 16:30:54] [error] Failed to load resource: net::ERR_TIMED_OUT
+[2026-04-08 16:30:57] [error] 获取设备状态数据失败 TypeError: Cannot read properties of undefined (reading 'data')
+    at https://192.168.88.231:19025/js/app.c59a49fd.js:1:208598
+    at async a.getStateData (https://192.168.88.231:19025/js/chunk-8ce48fde.3cd31aec.js:1:16393)
+    at async c.start (https://192.168.88.231:19025/js/app.c59a49fd.js:1:223852)
+[2026-04-08 16:31:00] [error] 获取实时数据失败 TypeError: Cannot read properties of undefined (reading 'data')
+    at https://192.168.88.231:19025/js/app.c59a49fd.js:1:208598
+    at async a.getRealData (https://192.168.88.231:19025/js/chunk-8ce48fde.3cd31aec.js:1:17269)
+    at async c.start (https://192.168.88.231:19025/js/app.c59a49fd.js:1:223852)
+[2026-04-08 16:31:00] [error] Error caching or loading videos: TypeError: Cannot read properties of undefined (reading 'load')
+    at a.cacheAndSetupVideos (https://192.168.88.231:19025/js/app.c59a49fd.js:1:100962)
+[2026-04-08 16:31:19] [error] 获取数据失败 TypeError: Cannot read properties of undefined (reading 'data')
+    at https://192.168.88.231:19025/js/app.c59a49fd.js:1:208598
+    at async a.getData (https://192.168.88.231:19025/js/chunk-c7ddc5a0.e4b576b0.js:1:84059)
+    at async c.start (https://192.168.88.231:19025/js/app.c59a49fd.js:1:223852)
+[2026-04-08 16:31:19] [error] Failed to load resource: net::ERR_TIMED_OUT
+[2026-04-08 16:31:49] [error] 获取机器人报警数据失败 TypeError: Cannot read properties of undefined (reading 'data')
+    at https://192.168.88.231:19025/js/app.c59a49fd.js:1:208598
+    at async a.getRobotAlarm (https://192.168.88.231:19025/js/chunk-8ce48fde.3cd31aec.js:1:17959)
+    at async c.start (https://192.168.88.231:19025/js/app.c59a49fd.js:1:223852)
+[2026-04-08 16:31:49] [error] Failed to load resource: net::ERR_TIMED_OUT
+[2026-04-08 16:31:54] [error] 获取实时数据失败 TypeError: Cannot read properties of undefined (reading 'data')
+    at https://192.168.88.231:19025/js/app.c59a49fd.js:1:208598
+    at async a.getRealData (https://192.168.88.231:19025/js/chunk-8ce48fde.3cd31aec.js:1:17269)
+    at async c.start (https://192.168.88.231:19025/js/app.c59a49fd.js:1:223852)
+[2026-04-08 16:32:00] [error] 获取设备状态数据失败 TypeError: Cannot read properties of undefined (reading 'data')
+    at https://192.168.88.231:19025/js/app.c59a49fd.js:1:208598
+    at async a.getStateData (https://192.168.88.231:19025/js/chunk-8ce48fde.3cd31aec.js:1:16393)
+    at async c.start (https://192.168.88.231:19025/js/app.c59a49fd.js:1:223852)
+[2026-04-08 16:32:05] [error] 获取实时数据失败 TypeError: Cannot read properties of undefined (reading 'data')
+    at https://192.168.88.231:19025/js/app.c59a49fd.js:1:208598
+    at async a.getRealData (https://192.168.88.231:19025/js/chunk-8ce48fde.3cd31aec.js:1:17269)
+    at async c.start (https://192.168.88.231:19025/js/app.c59a49fd.js:1:223852)
+[2026-04-08 16:32:06] [error] 获取设备状态数据失败 TypeError: Cannot read properties of undefined (reading 'data')
+    at https://192.168.88.231:19025/js/app.c59a49fd.js:1:208598
+    at async a.getStateData (https://192.168.88.231:19025/js/chunk-8ce48fde.3cd31aec.js:1:16393)
+    at async c.start (https://192.168.88.231:19025/js/app.c59a49fd.js:1:223852)
+[2026-04-08 16:32:11] [error] 获取实时数据失败 TypeError: Cannot read properties of undefined (reading 'data')
+    at https://192.168.88.231:19025/js/app.c59a49fd.js:1:208598
+    at async a.getRealData (https://192.168.88.231:19025/js/chunk-8ce48fde.3cd31aec.js:1:17269)
+    at async c.start (https://192.168.88.231:19025/js/app.c59a49fd.js:1:223852)
+[2026-04-08 16:32:12] [error] 获取设备状态数据失败 TypeError: Cannot read properties of undefined (reading 'data')
+    at https://192.168.88.231:19025/js/app.c59a49fd.js:1:208598
+    at async a.getStateData (https://192.168.88.231:19025/js/chunk-8ce48fde.3cd31aec.js:1:16393)
+    at async c.start (https://192.168.88.231:19025/js/app.c59a49fd.js:1:223852)
+[2026-04-08 16:32:17] [error] 获取实时数据失败 TypeError: Cannot read properties of undefined (reading 'data')
+    at https://192.168.88.231:19025/js/app.c59a49fd.js:1:208598
+    at async a.getRealData (https://192.168.88.231:19025/js/chunk-8ce48fde.3cd31aec.js:1:17269)
+    at async c.start (https://192.168.88.231:19025/js/app.c59a49fd.js:1:223852)
+[2026-04-08 16:32:18] [error] 获取设备状态数据失败 TypeError: Cannot read properties of undefined (reading 'data')
+    at https://192.168.88.231:19025/js/app.c59a49fd.js:1:208598
+    at async a.getStateData (https://192.168.88.231:19025/js/chunk-8ce48fde.3cd31aec.js:1:16393)
+    at async c.start (https://192.168.88.231:19025/js/app.c59a49fd.js:1:223852)
+[2026-04-08 16:32:24] [error] 获取实时数据失败 TypeError: Cannot read properties of undefined (reading 'data')
+    at https://192.168.88.231:19025/js/app.c59a49fd.js:1:208598
+    at async a.getRealData (https://192.168.88.231:19025/js/chunk-8ce48fde.3cd31aec.js:1:17269)
+    at async c.start (https://192.168.88.231:19025/js/app.c59a49fd.js:1:223852)
+[2026-04-08 16:32:24] [error] 获取设备状态数据失败 TypeError: Cannot read properties of undefined (reading 'data')
+    at https://192.168.88.231:19025/js/app.c59a49fd.js:1:208598
+    at async a.getStateData (https://192.168.88.231:19025/js/chunk-8ce48fde.3cd31aec.js:1:16393)
+    at async c.start (https://192.168.88.231:19025/js/app.c59a49fd.js:1:223852)
+[2026-04-08 16:32:30] [error] 获取实时数据失败 TypeError: Cannot read properties of undefined (reading 'data')
+    at https://192.168.88.231:19025/js/app.c59a49fd.js:1:208598
+    at async a.getRealData (https://192.168.88.231:19025/js/chunk-8ce48fde.3cd31aec.js:1:17269)
+    at async c.start (https://192.168.88.231:19025/js/app.c59a49fd.js:1:223852)
+[2026-04-08 16:32:30] [error] 获取设备状态数据失败 TypeError: Cannot read properties of undefined (reading 'data')
+    at https://192.168.88.231:19025/js/app.c59a49fd.js:1:208598
+    at async a.getStateData (https://192.168.88.231:19025/js/chunk-8ce48fde.3cd31aec.js:1:16393)
+    at async c.start (https://192.168.88.231:19025/js/app.c59a49fd.js:1:223852)
+[2026-04-08 16:32:36] [error] 获取实时数据失败 TypeError: Cannot read properties of undefined (reading 'data')
+    at https://192.168.88.231:19025/js/app.c59a49fd.js:1:208598
+    at async a.getRealData (https://192.168.88.231:19025/js/chunk-8ce48fde.3cd31aec.js:1:17269)
+    at async c.start (https://192.168.88.231:19025/js/app.c59a49fd.js:1:223852)
+[2026-04-08 16:32:36] [error] 获取设备状态数据失败 TypeError: Cannot read properties of undefined (reading 'data')
+    at https://192.168.88.231:19025/js/app.c59a49fd.js:1:208598
+    at async a.getStateData (https://192.168.88.231:19025/js/chunk-8ce48fde.3cd31aec.js:1:16393)
+    at async c.start (https://192.168.88.231:19025/js/app.c59a49fd.js:1:223852)
+[2026-04-08 16:32:42] [error] 获取实时数据失败 TypeError: Cannot read properties of undefined (reading 'data')
+    at https://192.168.88.231:19025/js/app.c59a49fd.js:1:208598
+    at async a.getRealData (https://192.168.88.231:19025/js/chunk-8ce48fde.3cd31aec.js:1:17269)
+    at async c.start (https://192.168.88.231:19025/js/app.c59a49fd.js:1:223852)
+[2026-04-08 16:32:42] [error] 获取设备状态数据失败 TypeError: Cannot read properties of undefined (reading 'data')
+    at https://192.168.88.231:19025/js/app.c59a49fd.js:1:208598
+    at async a.getStateData (https://192.168.88.231:19025/js/chunk-8ce48fde.3cd31aec.js:1:16393)
+    at async c.start (https://192.168.88.231:19025/js/app.c59a49fd.js:1:223852)
+[2026-04-08 16:32:48] [error] 获取实时数据失败 TypeError: Cannot read properties of undefined (reading 'data')
+    at https://192.168.88.231:19025/js/app.c59a49fd.js:1:208598
+    at async a.getRealData (https://192.168.88.231:19025/js/chunk-8ce48fde.3cd31aec.js:1:17269)
+    at async c.start (https://192.168.88.231:19025/js/app.c59a49fd.js:1:223852)
+[2026-04-08 16:32:48] [error] 获取设备状态数据失败 TypeError: Cannot read properties of undefined (reading 'data')
+    at https://192.168.88.231:19025/js/app.c59a49fd.js:1:208598
+    at async a.getStateData (https://192.168.88.231:19025/js/chunk-8ce48fde.3cd31aec.js:1:16393)
+    at async c.start (https://192.168.88.231:19025/js/app.c59a49fd.js:1:223852)

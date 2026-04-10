@@ -1,0 +1,60 @@
+[2026-04-08 17:16:45] [log] 初始化uid 1775639805311
+[2026-04-08 17:16:45] [log] 触发赋值 null
+[2026-04-08 17:16:45] [log] Loaded claygl, version 1.3.0
+[2026-04-08 17:16:45] [log] Loaded echarts, version 4.9.0
+[2026-04-08 17:16:47] [log] Videos cached and loaded successfully.
+[2026-04-08 17:17:00] [log] 校验成功
+[2026-04-08 17:17:01] [log] 密码强度：高
+[2026-04-08 17:17:01] [log] -----------项目获取成功
+[2026-04-08 17:17:01] [log] -----------风机状态获取成功
+[2026-04-08 17:17:01] [log] -----------光伏状态获取成功
+[2026-04-08 17:17:01] [log] -----------组织结构获取成功
+[2026-04-08 17:17:01] [error] Failed to load resource: the server responded with a status of 460 (Client Error (460))
+[2026-04-08 17:17:01] [error] 获取储能状态失败 Error: Request failed with status code 460
+    at e.exports (https://192.168.88.238:9608/js/chunk-vendors.0f86d0fb.js:7:77180)
+    at e.exports (https://192.168.88.238:9608/js/chunk-vendors.0f86d0fb.js:13:25270)
+    at f.onreadystatechange (https://192.168.88.238:9608/js/chunk-vendors.0f86d0fb.js:42:86232)
+[2026-04-08 17:17:01] [error] Failed to load resource: the server responded with a status of 460 (Client Error (460))
+[2026-04-08 17:17:01] [error] 获取储能状态失败 Error: Request failed with status code 460
+    at e.exports (https://192.168.88.238:9608/js/chunk-vendors.0f86d0fb.js:7:77180)
+    at e.exports (https://192.168.88.238:9608/js/chunk-vendors.0f86d0fb.js:13:25270)
+    at f.onreadystatechange (https://192.168.88.238:9608/js/chunk-vendors.0f86d0fb.js:42:86232)
+[2026-04-08 17:17:01] [log] -----------报警级别获取成功
+[2026-04-08 17:17:01] [log] {id: undefined, username: undefined, password: undefined, nickname: undefined, headImgUrl: undefined} -----------用户信息
+[2026-04-08 17:17:01] [log] -----------报警弹窗配置数据获取成功 []
+[2026-04-08 17:17:01] [log] {companies: undefined, companyPer: undefined, farmPer: undefined, farms: undefined, project: undefined} -----------用户权限信息
+[2026-04-08 17:17:01] [log] 数据填充完毕,准备进入系统
+[2026-04-08 17:17:06] [log] 视频播放结束
+[2026-04-08 17:17:06] [log] -----------homePage: SMART
+[2026-04-08 17:17:06] [log] -----------payload: {component: Promise, hiddenNav: true}
+[2026-04-08 17:17:06] [log] -----------homePage: SMART
+[2026-04-08 17:17:06] [log] -----------payload: {component: Promise, hiddenNav: true}
+[2026-04-08 17:17:06] [log] 触发赋值 {flag: false, dev: , tag: , tagName: , factor: 1}
+[2026-04-08 17:17:07] [error] Failed to load resource: the server responded with a status of 404 (Not Found)
+[2026-04-08 17:17:11] [log] Videos cached and loaded successfully.
+[2026-04-08 17:17:26] [log] 校验成功
+[2026-04-08 17:17:28] [log] 密码强度：高
+[2026-04-08 17:17:28] [log] -----------项目获取成功
+[2026-04-08 17:17:28] [log] -----------风机状态获取成功
+[2026-04-08 17:17:28] [log] -----------光伏状态获取成功
+[2026-04-08 17:17:28] [log] -----------组织结构获取成功
+[2026-04-08 17:17:28] [error] Failed to load resource: the server responded with a status of 460 (Client Error (460))
+[2026-04-08 17:17:28] [error] 获取储能状态失败 Error: Request failed with status code 460
+    at e.exports (https://192.168.88.238:9608/js/chunk-vendors.0f86d0fb.js:7:77180)
+    at e.exports (https://192.168.88.238:9608/js/chunk-vendors.0f86d0fb.js:13:25270)
+    at f.onreadystatechange (https://192.168.88.238:9608/js/chunk-vendors.0f86d0fb.js:42:86232)
+[2026-04-08 17:17:29] [log] -----------报警级别获取成功
+[2026-04-08 17:17:29] [error] Failed to load resource: the server responded with a status of 460 (Client Error (460))
+[2026-04-08 17:17:29] [error] 获取储能状态失败 Error: Request failed with status code 460
+    at e.exports (https://192.168.88.238:9608/js/chunk-vendors.0f86d0fb.js:7:77180)
+    at e.exports (https://192.168.88.238:9608/js/chunk-vendors.0f86d0fb.js:13:25270)
+    at f.onreadystatechange (https://192.168.88.238:9608/js/chunk-vendors.0f86d0fb.js:42:86232)
+[2026-04-08 17:17:29] [log] -----------报警弹窗配置数据获取成功 []
+[2026-04-08 17:17:29] [log] {id: undefined, username: undefined, password: undefined, nickname: undefined, headImgUrl: undefined} -----------用户信息
+[2026-04-08 17:17:29] [log] {companies: undefined, companyPer: undefined, farmPer: undefined, farms: undefined, project: undefined} -----------用户权限信息
+[2026-04-08 17:17:29] [log] 数据填充完毕,准备进入系统
+[2026-04-08 17:17:34] [log] 视频播放结束
+[2026-04-08 17:17:34] [log] -----------homePage: SMART
+[2026-04-08 17:17:34] [log] -----------payload: {component: Promise, hiddenNav: true}
+[2026-04-08 17:17:34] [log] 触发赋值 {flag: false, dev: , tag: , tagName: , factor: 1}
+[2026-04-08 17:17:34] [error] Failed to load resource: the server responded with a status of 404 (Not Found)

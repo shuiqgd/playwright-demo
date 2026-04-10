@@ -1,0 +1,17 @@
+[
+  {
+    "timestamp": "2026-04-08T16:23:54",
+    "status": 460,
+    "url": "https://192.168.88.231:19025/gateway/api/v1/config/get/basic"
+  },
+  {
+    "timestamp": "2026-04-08T16:23:54",
+    "status": 460,
+    "url": "https://192.168.88.231:19025/gateway/api/v1/config/get/basic"
+  },
+  {
+    "timestamp": "2026-04-08T16:24:53",
+    "status": 404,
+    "url": "https://192.168.88.231:19025/project/DTGZZHDZ/logo.png"
+  }
+]

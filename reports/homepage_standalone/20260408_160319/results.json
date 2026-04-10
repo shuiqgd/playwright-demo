@@ -1,0 +1,200 @@
+{
+  "generated_at": "2026-04-08T16:08:24",
+  "script": "tests/test_homepage_standalone.py",
+  "environment": {
+    "base_url": "https://192.168.88.231:19025/#/globalOverview/index",
+    "excel_path": "testcases\\zhdz-testcase.xlsx",
+    "headless": true,
+    "route_timeout_seconds": 180,
+    "content_timeout_seconds": 120,
+    "max_retries": 1
+  },
+  "selected_cases": [
+    {
+      "case_id": "TC-HOME-007",
+      "module": "首页",
+      "feature": "发电量总览展示及异常场景验证",
+      "description": "验证首页发电量总览指标的展示正确性、单位规范性及空 / 异常接口下的页面容错能力",
+      "expected": "1.正常场景：发电量总览指标完整展示，数值与数据源一致，单位显示正确（如发电量 MWh、功率 MW）\n2.异常场景：指标为空或接口异常时，页面展示友好的空状态提示，无崩溃或布局错乱"
+    },
+    {
+      "case_id": "TC-HOME-011",
+      "module": "首页",
+      "feature": "光伏机组信息展示+汇总逻辑",
+      "description": "验证首页展示光伏机组核心运行信息、验证首页风电与光伏两类信息均可独立展示",
+      "expected": "页面展示装机容量、辐照度、实时功率、装机台数四项指标；每项均有名称、数值、单位；两个区域同时展示且互不覆盖；对应指标单位正确；无字段串位或重复展示"
+    },
+    {
+      "case_id": "TC-HOME-014",
+      "module": "首页",
+      "feature": "集控数据接口异常",
+      "description": "节能减排指标展示及集控接口异常容错验证",
+      "expected": "1.正常场景：节能减排指标二氧化硫、二氧化碳、标准煤三项指标完整展示，数值与数据源一致，单位显示正确\n2.异常场景：集控接口异常时，页面展示容错提示，无报错或布局错乱，不影响其他模块使用"
+    }
+  ],
+  "wait_summary": {
+    "route_wait": {
+      "success": true,
+      "waited_seconds": 55.13,
+      "details": "首页路由已就绪",
+      "page_url": "https://192.168.88.231:19025/#/globalOverview/index",
+      "text": "贵州公司新能源场站智能运维平台\n\n首页\n全景监视中心\n综合报警中心\n集中监视中心\n智能诊断中心\n智能巡视中心\n智能安防中心\n智能运维中心\n智能监测中心\n系统设置\n王江岑\n发电量\n万kWh\n日发电量\n万kWh\n月发电量\n万kWh\n年发电量\n安全生产天数：\n天\n总装机容量：\nMW\n实时功率：\nMW\n风电机组信息\n装机容量\n-\nMW\n平均风速\n-\nm/s\n实时功率\n-\nMW\n装机台数\n-\n台\n光伏机组信息\n装机容量\n-\nMW\n辐照度\n-\nW/m²\n实时功率\n-\nMW\n装机台数\n-\n台\n集控整体监控\n无人机:\n5 台\n0\n5\n0\n机器人:\n9 台\n0\n9\n0\n摄像头:\n0 台\n0\n0\n0\n声纹:\n0 台\n0\n0\n0\n消防报警:\n0\n安防报警:\n0\n二氧化硫\n万吨/年\n二氧化碳\n万吨/年\n标准煤\n万吨/年\n接坝河光伏电站\n贞丰长田光伏电站\n纳玉光伏电站\n双塘光伏电场\n海发光伏电场\n大风坪风电场\n白龙山风电场\n白京岩风电场\n大坝场风电场\n七舍风电场",
+      "polls": [
+        {
+          "elapsed_seconds": 0.0,
+          "url": "https://192.168.88.231:19025/#/login",
+          "hash": "#/login",
+          "text_length": 29
+        },
+        {
+          "elapsed_seconds": 5.01,
+          "url": "https://192.168.88.231:19025/#/login",
+          "hash": "#/login",
+          "text_length": 0
+        },
+        {
+          "elapsed_seconds": 10.02,
+          "url": "https://192.168.88.231:19025/#/login",
+          "hash": "#/login",
+          "text_length": 0
+        },
+        {
+          "elapsed_seconds": 15.04,
+          "url": "https://192.168.88.231:19025/#/login",
+          "hash": "#/login",
+          "text_length": 0
+        },
+        {
+          "elapsed_seconds": 20.05,
+          "url": "https://192.168.88.231:19025/#/login",
+          "hash": "#/login",
+          "text_length": 0
+        },
+        {
+          "elapsed_seconds": 25.06,
+          "url": "https://192.168.88.231:19025/#/login",
+          "hash": "#/login",
+          "text_length": 0
+        },
+        {
+          "elapsed_seconds": 30.07,
+          "url": "https://192.168.88.231:19025/#/login",
+          "hash": "#/login",
+          "text_length": 0
+        },
+        {
+          "elapsed_seconds": 35.08,
+          "url": "https://192.168.88.231:19025/#/login",
+          "hash": "#/login",
+          "text_length": 0
+        },
+        {
+          "elapsed_seconds": 40.1,
+          "url": "https://192.168.88.231:19025/#/login",
+          "hash": "#/login",
+          "text_length": 0
+        },
+        {
+          "elapsed_seconds": 45.11,
+          "url": "https://192.168.88.231:19025/#/login",
+          "hash": "#/login",
+          "text_length": 0
+        },
+        {
+          "elapsed_seconds": 50.12,
+          "url": "https://192.168.88.231:19025/#/login",
+          "hash": "#/login",
+          "text_length": 0
+        },
+        {
+          "elapsed_seconds": 55.13,
+          "url": "https://192.168.88.231:19025/#/globalOverview/index",
+          "hash": "#/globalOverview/index",
+          "text_length": 424
+        }
+      ]
+    },
+    "content_wait": {
+      "success": true,
+      "waited_seconds": 0.0,
+      "details": "首页核心文本已渲染",
+      "page_url": "https://192.168.88.231:19025/#/globalOverview/index",
+      "text": "贵州公司新能源场站智能运维平台\n\n首页\n全景监视中心\n综合报警中心\n集中监视中心\n智能诊断中心\n智能巡视中心\n智能安防中心\n智能运维中心\n智能监测中心\n系统设置\n王江岑\n发电量\n万kWh\n日发电量\n万kWh\n月发电量\n万kWh\n年发电量\n安全生产天数：\n天\n总装机容量：\nMW\n实时功率：\nMW\n风电机组信息\n装机容量\n-\nMW\n平均风速\n-\nm/s\n实时功率\n-\nMW\n装机台数\n-\n台\n光伏机组信息\n装机容量\n-\nMW\n辐照度\n-\nW/m²\n实时功率\n-\nMW\n装机台数\n-\n台\n集控整体监控\n无人机:\n5 台\n0\n5\n0\n机器人:\n9 台\n0\n9\n0\n摄像头:\n0 台\n0\n0\n0\n声纹:\n0 台\n0\n0\n0\n消防报警:\n0\n安防报警:\n0\n二氧化硫\n万吨/年\n二氧化碳\n万吨/年\n标准煤\n万吨/年\n接坝河光伏电站\n贞丰长田光伏电站\n纳玉光伏电站\n双塘光伏电场\n海发光伏电场\n大风坪风电场\n白龙山风电场\n白京岩风电场\n大坝场风电场\n七舍风电场",
+      "polls": [
+        {
+          "elapsed_seconds": 0.0,
+          "url": "https://192.168.88.231:19025/#/globalOverview/index",
+          "hash": "#/globalOverview/index",
+          "text_length": 424,
+          "markers_ready": true
+        }
+      ]
+    }
+  },
+  "results": [
+    {
+      "case_id": "TC-HOME-007",
+      "case_name": "发电量总览展示及异常场景验证",
+      "status": "failed",
+      "duration_seconds": 223.59,
+      "expected": "1.正常场景：发电量总览指标完整展示，数值与数据源一致，单位显示正确（如发电量 MWh、功率 MW）\n2.异常场景：指标为空或接口异常时，页面展示友好的空状态提示，无崩溃或布局错乱",
+      "actual": "发电量总览中“年发电量”附近未提取到有效数值",
+      "page_url": "https://192.168.88.231:19025/#/globalOverview/index",
+      "warnings": [
+        "第 1 次执行失败: Page.screenshot: Timeout 180000ms exceeded.\nCall log:\n  - taking page screenshot\n  - waiting for fonts to load...\n",
+        "已完成失败重跑前恢复：首页路由等待 0.0s，内容等待 0.0s。",
+        "第 2 次执行失败: 发电量总览中“年发电量”附近未提取到有效数值",
+        "检测到 HTTP >=400 响应: 460 https://192.168.88.231:19025/gateway/api/v1/config/get/basic; 460 https://192.168.88.231:19025/gateway/api/v1/config/get/basic; 404 https://192.168.88.231:19025/project/DTGZZHDZ/logo.png",
+        "检测到控制台错误: 获取设备状态数据失败 TypeError: Cannot read properties of undefined (reading 'data')     at https://192.168.88.231:19025/js/app.c59a49fd.js:1:208598     at async a.getStateData (https://192.; 获取实时数据失败 TypeError: Cannot read properties of undefined (reading 'data')     at https://192.168.88.231:19025/js/app.c59a49fd.js:1:208598     at async a.getRealData (https://192.168; Error caching or loading videos: TypeError: Cannot read properties of undefined (reading 'load')     at a.cacheAndSetupVideos (https://192.168.88.231:19025/js/app.c59a49fd.js:1:100"
+      ],
+      "artifacts": {
+        "attempt_1_before_text": "reports\\homepage_standalone\\20260408_160319\\snapshots\\TC-HOME-007_attempt1_before.txt",
+        "attempt_1_failure_text": "reports\\homepage_standalone\\20260408_160319\\snapshots\\TC-HOME-007_attempt1_failure.txt",
+        "attempt_1_failure_screenshot": "reports\\homepage_standalone\\20260408_160319\\screenshots\\TC-HOME-007_attempt1_failure.png",
+        "attempt_1_console_errors": "reports\\homepage_standalone\\20260408_160319\\TC-HOME-007_attempt1_console_errors.json",
+        "attempt_1_network_errors": "reports\\homepage_standalone\\20260408_160319\\TC-HOME-007_attempt1_network_errors.json",
+        "attempt_2_before_text": "reports\\homepage_standalone\\20260408_160319\\snapshots\\TC-HOME-007_attempt2_before.txt",
+        "attempt_2_before_screenshot": "reports\\homepage_standalone\\20260408_160319\\screenshots\\TC-HOME-007_attempt2_before.png",
+        "attempt_2_failure_text": "reports\\homepage_standalone\\20260408_160319\\snapshots\\TC-HOME-007_attempt2_failure.txt",
+        "attempt_2_failure_screenshot": "reports\\homepage_standalone\\20260408_160319\\screenshots\\TC-HOME-007_attempt2_failure.png",
+        "attempt_2_console_errors": "reports\\homepage_standalone\\20260408_160319\\TC-HOME-007_attempt2_console_errors.json",
+        "attempt_2_network_errors": "reports\\homepage_standalone\\20260408_160319\\TC-HOME-007_attempt2_network_errors.json"
+      }
+    },
+    {
+      "case_id": "TC-HOME-011",
+      "case_name": "光伏机组信息展示+汇总逻辑",
+      "status": "passed",
+      "duration_seconds": 1.09,
+      "expected": "页面展示装机容量、辐照度、实时功率、装机台数四项指标；每项均有名称、数值、单位；两个区域同时展示且互不覆盖；对应指标单位正确；无字段串位或重复展示",
+      "actual": "风电与光伏区域同时可见，风电装机容量=269.55MW，平均风速=8.23m/s，光伏装机容量=423.25MW，辐照度=516.78W/m²。",
+      "page_url": "https://192.168.88.231:19025/#/globalOverview/index",
+      "warnings": [],
+      "artifacts": {
+        "attempt_1_before_text": "reports\\homepage_standalone\\20260408_160319\\snapshots\\TC-HOME-011_attempt1_before.txt",
+        "attempt_1_before_screenshot": "reports\\homepage_standalone\\20260408_160319\\screenshots\\TC-HOME-011_attempt1_before.png",
+        "attempt_1_after_text": "reports\\homepage_standalone\\20260408_160319\\snapshots\\TC-HOME-011_attempt1_after.txt",
+        "attempt_1_after_screenshot": "reports\\homepage_standalone\\20260408_160319\\screenshots\\TC-HOME-011_attempt1_after.png"
+      }
+    },
+    {
+      "case_id": "TC-HOME-014",
+      "case_name": "集控数据接口异常",
+      "status": "passed",
+      "duration_seconds": 1.05,
+      "expected": "1.正常场景：节能减排指标二氧化硫、二氧化碳、标准煤三项指标完整展示，数值与数据源一致，单位显示正确\n2.异常场景：集控接口异常时，页面展示容错提示，无报错或布局错乱，不影响其他模块使用",
+      "actual": "节能减排区域已渲染，二氧化硫=0.61万吨/年，二氧化碳=20.22万吨/年，标准煤=8.11万吨/年。",
+      "page_url": "https://192.168.88.231:19025/#/globalOverview/index",
+      "warnings": [
+        "检测到 HTTP >=400 响应: 460 https://192.168.88.231:19025/gateway/api/v1/config/get/basic; 460 https://192.168.88.231:19025/gateway/api/v1/config/get/basic; 404 https://192.168.88.231:19025/project/DTGZZHDZ/logo.png",
+        "检测到控制台错误: 获取设备状态数据失败 TypeError: Cannot read properties of undefined (reading 'data')     at https://192.168.88.231:19025/js/app.c59a49fd.js:1:208598     at async a.getStateData (https://192.; 获取实时数据失败 TypeError: Cannot read properties of undefined (reading 'data')     at https://192.168.88.231:19025/js/app.c59a49fd.js:1:208598     at async a.getRealData (https://192.168; Error caching or loading videos: TypeError: Cannot read properties of undefined (reading 'load')     at a.cacheAndSetupVideos (https://192.168.88.231:19025/js/app.c59a49fd.js:1:100"
+      ],
+      "artifacts": {
+        "attempt_1_before_text": "reports\\homepage_standalone\\20260408_160319\\snapshots\\TC-HOME-014_attempt1_before.txt",
+        "attempt_1_before_screenshot": "reports\\homepage_standalone\\20260408_160319\\screenshots\\TC-HOME-014_attempt1_before.png",
+        "attempt_1_after_text": "reports\\homepage_standalone\\20260408_160319\\snapshots\\TC-HOME-014_attempt1_after.txt",
+        "attempt_1_after_screenshot": "reports\\homepage_standalone\\20260408_160319\\screenshots\\TC-HOME-014_attempt1_after.png"
+      }
+    }
+  ]
+}

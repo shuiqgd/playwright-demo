@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <title>首页自动化测试报告</title>
+  <style>
+    body { font-family: 'Segoe UI', sans-serif; margin: 24px; background: #f5f7fb; color: #1f2937; }
+    h1 { margin-bottom: 8px; }
+    .summary { background: #fff; border-radius: 12px; padding: 16px 20px; margin-bottom: 20px; box-shadow: 0 6px 18px rgba(15, 23, 42, 0.08); }
+    table { width: 100%; border-collapse: collapse; background: #fff; box-shadow: 0 6px 18px rgba(15, 23, 42, 0.08); }
+    th, td { border: 1px solid #dbe2ea; padding: 12px; vertical-align: top; text-align: left; font-size: 14px; }
+    th { background: #0f172a; color: #fff; }
+    tr.passed td { background: #f0fdf4; }
+    tr.failed td { background: #fef2f2; }
+    code { background: #eef2ff; padding: 2px 6px; border-radius: 4px; }
+    .artifact { margin-bottom: 12px; }
+    .artifact:last-child { margin-bottom: 0; }
+    .artifact-name { font-weight: 600; margin-bottom: 6px; }
+    .artifact-path { color: #475569; font-size: 12px; word-break: break-all; }
+    .artifact-image img { display: block; width: 320px; max-width: 100%; border: 1px solid #cbd5e1; border-radius: 8px; margin-bottom: 6px; background: #fff; }
+  </style>
+</head>
+<body>
+  <h1>首页自动化独立脚本测试报告</h1>
+  <div class="summary">
+    <p>生成时间: <code>2026-04-08 17:12:08</code></p>
+    <p>目标地址: <code>https://192.168.88.238:9608/#/login</code></p>
+    <p>执行结果: 通过 2 条，失败 1 条</p>
+    <p>首页路由等待: 首页路由已就绪</p>
+    <p>首页内容等待: 首页核心文本已渲染</p>
+    <p>失败重跑次数上限: 1</p>
+  </div>
+  <table>
+    <thead>
+      <tr>
+        <th>用例ID</th>
+        <th>测试项</th>
+        <th>状态</th>
+        <th>耗时(s)</th>
+        <th>预期</th>
+        <th>实际</th>
+        <th>页面地址</th>
+        <th>警告</th>
+        <th>产物</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+            <tr class="failed">
+              <td>TC-HOME-007</td>
+              <td>发电量总览展示及异常场景验证</td>
+              <td>failed</td>
+              <td>27.58</td>
+              <td>1.正常场景：发电量总览指标完整展示，数值与数据源一致，单位显示正确（如发电量 MWh、功率 MW）
+2.异常场景：指标为空或接口异常时，页面展示友好的空状态提示，无崩溃或布局错乱</td>
+              <td>发电量总览中“年发电量”附近未提取到有效数值</td>
+              <td>https://192.168.88.238:9608/#/globalOverview/index</td>
+              <td>第 1 次执行失败: 发电量总览中“年发电量”附近未提取到有效数值<br>已完成失败重跑前恢复：首页路由等待 10.03s，内容等待 0.0s。<br>第 2 次执行失败: 发电量总览中“年发电量”附近未提取到有效数值<br>检测到 HTTP &gt;=400 响应: 460 https://192.168.88.238:9608/gateway/api/v1/config/get/basic; 460 https://192.168.88.238:9608/gateway/api/v1/config/get/basic; 404 https://192.168.88.238:9608/project/DTGZZHDZ/logo.png<br>检测到控制台错误: Failed to load resource: the server responded with a status of 460 (Client Error (460)); 获取储能状态失败 Error: Request failed with status code 460     at e.exports (https://192.168.88.238:9608/js/chunk-vendors.0f86d0fb.js:7:77180)     at e.exports (https://192.168.88.238:960; Failed to load resource: the server responded with a status of 404 (Not Found)</td>
+              <td>
+                <div class="artifact">
+                  <div class="artifact-name">attempt_1_before_text</div>
+                  <div class="artifact-path">reports\homepage_standalone\20260408_171109\snapshots\TC-HOME-007_attempt1_before.txt</div>
+                </div>
+                
+                <div class="artifact artifact-image">
+                  <div class="artifact-name">attempt_1_before_screenshot</div>
+                  <img src="screenshots/TC-HOME-007_attempt1_before.png" alt="attempt_1_before_screenshot" loading="lazy">
+                  <div class="artifact-path">reports\homepage_standalone\20260408_171109\screenshots\TC-HOME-007_attempt1_before.png</div>
+                </div>
+                
+                <div class="artifact">
+                  <div class="artifact-name">attempt_1_failure_text</div>
+                  <div class="artifact-path">reports\homepage_standalone\20260408_171109\snapshots\TC-HOME-007_attempt1_failure.txt</div>
+                </div>
+                
+                <div class="artifact artifact-image">
+                  <div class="artifact-name">attempt_1_failure_screenshot</div>
+                  <img src="screenshots/TC-HOME-007_attempt1_failure.png" alt="attempt_1_failure_screenshot" loading="lazy">
+                  <div class="artifact-path">reports\homepage_standalone\20260408_171109\screenshots\TC-HOME-007_attempt1_failure.png</div>
+                </div>
+                
+                <div class="artifact">
+                  <div class="artifact-name">attempt_1_console_errors</div>
+                  <div class="artifact-path">reports\homepage_standalone\20260408_171109\TC-HOME-007_attempt1_console_errors.json</div>
+                </div>
+                
+                <div class="artifact">
+                  <div class="artifact-name">attempt_1_network_errors</div>
+                  <div class="artifact-path">reports\homepage_standalone\20260408_171109\TC-HOME-007_attempt1_network_errors.json</div>
+                </div>
+                
+                <div class="artifact">
+                  <div class="artifact-name">attempt_2_before_text</div>
+                  <div class="artifact-path">reports\homepage_standalone\20260408_171109\snapshots\TC-HOME-007_attempt2_before.txt</div>
+                </div>
+                
+                <div class="artifact artifact-image">
+                  <div class="artifact-name">attempt_2_before_screenshot</div>
+                  <img src="screenshots/TC-HOME-007_attempt2_before.png" alt="attempt_2_before_screenshot" loading="lazy">
+                  <div class="artifact-path">reports\homepage_standalone\20260408_171109\screenshots\TC-HOME-007_attempt2_before.png</div>
+                </div>
+                
+                <div class="artifact">
+                  <div class="artifact-name">attempt_2_failure_text</div>
+                  <div class="artifact-path">reports\homepage_standalone\20260408_171109\snapshots\TC-HOME-007_attempt2_failure.txt</div>
+                </div>
+                
+                <div class="artifact artifact-image">
+                  <div class="artifact-name">attempt_2_failure_screenshot</div>
+                  <img src="screenshots/TC-HOME-007_attempt2_failure.png" alt="attempt_2_failure_screenshot" loading="lazy">
+                  <div class="artifact-path">reports\homepage_standalone\20260408_171109\screenshots\TC-HOME-007_attempt2_failure.png</div>
+                </div>
+                
+                <div class="artifact">
+                  <div class="artifact-name">attempt_2_console_errors</div>
+                  <div class="artifact-path">reports\homepage_standalone\20260408_171109\TC-HOME-007_attempt2_console_errors.json</div>
+                </div>
+                
+                <div class="artifact">
+                  <div class="artifact-name">attempt_2_network_errors</div>
+                  <div class="artifact-path">reports\homepage_standalone\20260408_171109\TC-HOME-007_attempt2_network_errors.json</div>
+                </div>
+                </td>
+            </tr>
+            
+            <tr class="passed">
+              <td>TC-HOME-011</td>
+              <td>光伏机组信息展示+汇总逻辑</td>
+              <td>passed</td>
+              <td>1.21</td>
+              <td>页面展示装机容量、辐照度、实时功率、装机台数四项指标；每项均有名称、数值、单位；两个区域同时展示且互不覆盖；对应指标单位正确；无字段串位或重复展示</td>
+              <td>风电与光伏区域同时可见，风电装机容量=269.55MW，平均风速=7.23m/s，光伏装机容量=423.13MW，辐照度=0W/m²。</td>
+              <td>https://192.168.88.238:9608/#/globalOverview/index</td>
+              <td>-</td>
+              <td>
+                <div class="artifact">
+                  <div class="artifact-name">attempt_1_before_text</div>
+                  <div class="artifact-path">reports\homepage_standalone\20260408_171109\snapshots\TC-HOME-011_attempt1_before.txt</div>
+                </div>
+                
+                <div class="artifact artifact-image">
+                  <div class="artifact-name">attempt_1_before_screenshot</div>
+                  <img src="screenshots/TC-HOME-011_attempt1_before.png" alt="attempt_1_before_screenshot" loading="lazy">
+                  <div class="artifact-path">reports\homepage_standalone\20260408_171109\screenshots\TC-HOME-011_attempt1_before.png</div>
+                </div>
+                
+                <div class="artifact">
+                  <div class="artifact-name">attempt_1_after_text</div>
+                  <div class="artifact-path">reports\homepage_standalone\20260408_171109\snapshots\TC-HOME-011_attempt1_after.txt</div>
+                </div>
+                
+                <div class="artifact artifact-image">
+                  <div class="artifact-name">attempt_1_after_screenshot</div>
+                  <img src="screenshots/TC-HOME-011_attempt1_after.png" alt="attempt_1_after_screenshot" loading="lazy">
+                  <div class="artifact-path">reports\homepage_standalone\20260408_171109\screenshots\TC-HOME-011_attempt1_after.png</div>
+                </div>
+                </td>
+            </tr>
+            
+            <tr class="passed">
+              <td>TC-HOME-014</td>
+              <td>集控数据接口异常</td>
+              <td>passed</td>
+              <td>1.34</td>
+              <td>1.正常场景：节能减排指标二氧化硫、二氧化碳、标准煤三项指标完整展示，数值与数据源一致，单位显示正确
+2.异常场景：集控接口异常时，页面展示容错提示，无报错或布局错乱，不影响其他模块使用</td>
+              <td>节能减排区域已渲染，二氧化硫=0.11万吨/年，二氧化碳=3.76万吨/年，标准煤=1.51万吨/年。</td>
+              <td>https://192.168.88.238:9608/#/globalOverview/index</td>
+              <td>检测到 HTTP &gt;=400 响应: 460 https://192.168.88.238:9608/gateway/api/v1/config/get/basic; 460 https://192.168.88.238:9608/gateway/api/v1/config/get/basic; 404 https://192.168.88.238:9608/project/DTGZZHDZ/logo.png<br>检测到控制台错误: Failed to load resource: the server responded with a status of 460 (Client Error (460)); 获取储能状态失败 Error: Request failed with status code 460     at e.exports (https://192.168.88.238:9608/js/chunk-vendors.0f86d0fb.js:7:77180)     at e.exports (https://192.168.88.238:960; Failed to load resource: the server responded with a status of 404 (Not Found)</td>
+              <td>
+                <div class="artifact">
+                  <div class="artifact-name">attempt_1_before_text</div>
+                  <div class="artifact-path">reports\homepage_standalone\20260408_171109\snapshots\TC-HOME-014_attempt1_before.txt</div>
+                </div>
+                
+                <div class="artifact artifact-image">
+                  <div class="artifact-name">attempt_1_before_screenshot</div>
+                  <img src="screenshots/TC-HOME-014_attempt1_before.png" alt="attempt_1_before_screenshot" loading="lazy">
+                  <div class="artifact-path">reports\homepage_standalone\20260408_171109\screenshots\TC-HOME-014_attempt1_before.png</div>
+                </div>
+                
+                <div class="artifact">
+                  <div class="artifact-name">attempt_1_after_text</div>
+                  <div class="artifact-path">reports\homepage_standalone\20260408_171109\snapshots\TC-HOME-014_attempt1_after.txt</div>
+                </div>
+                
+                <div class="artifact artifact-image">
+                  <div class="artifact-name">attempt_1_after_screenshot</div>
+                  <img src="screenshots/TC-HOME-014_attempt1_after.png" alt="attempt_1_after_screenshot" loading="lazy">
+                  <div class="artifact-path">reports\homepage_standalone\20260408_171109\screenshots\TC-HOME-014_attempt1_after.png</div>
+                </div>
+                </td>
+            </tr>
+            
+    </tbody>
+  </table>
+</body>
+</html>

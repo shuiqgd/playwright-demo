@@ -1,0 +1,265 @@
+{
+  "states": [
+    {
+      "checkpoint_seconds": 30,
+      "state": {
+        "href": "https://192.168.88.231:19025/#/login",
+        "hash": "#/login",
+        "text": "",
+        "appHtml": "<div id=\"app\"><section data-v-d9961954=\"\" class=\"login\"><video data-v-d9961954=\"\" autoplay=\"autoplay\" loop=\"loop\" muted=\"muted\" class=\"video\"><source data-v-d9961954=\"\" src=\"\" type=\"video/webm\"></video><video data-v-d9961954=\"\" muted=\"muted\" class=\"video\" style=\"z-index: 1;\"><source data-v-d9961954=\"\" src=\"\" type=\"video/webm\"></video><!----></section><!----><!----><div></div></div>",
+        "inputCount": 0,
+        "buttonCount": 0,
+        "divCount": 2,
+        "canvasCount": 0,
+        "svgCount": 0,
+        "bodyClass": ""
+      }
+    },
+    {
+      "checkpoint_seconds": 60,
+      "state": {
+        "href": "https://192.168.88.231:19025/#/globalOverview/index",
+        "hash": "#/globalOverview/index",
+        "text": "贵州公司新能源场站智能运维平台\n\n首页\n全景监视中心\n综合报警中心\n集中监视中心\n智能诊断中心\n智能巡视中心\n智能安防中心\n智能运维中心\n智能监测中心\n系统设置\n王江岑\n发电量\n万kWh\n日发电量\n万kWh\n月发电量\n万kWh\n年发电量\n安全生产天数：\n天\n总装机容量：\nMW\n实时功率：\nMW\n风电机组信息\n装机容量\n-\nMW\n平均风速\n-\nm/s\n实时功率\n-\nMW\n装机台数\n-\n台\n光伏机组信息\n装机容量\n-\nMW\n辐照度\n-\nW/m²\n实时功率\n-\nMW\n装机台数\n-\n台\n集控整体监控\n无人机:\n5 台\n0\n5\n0\n机器人:\n9 台\n0\n9\n0\n摄像头:\n0 台\n0\n0\n0\n声纹:\n0 台\n0\n0\n0\n消防报警:\n0\n安防报警:\n0\n二氧化硫\n万吨/年\n二氧化碳\n万吨/年\n标准煤\n万吨/年\n接坝河光伏电站\n贞丰长田光伏电站\n纳玉光伏电站\n双塘光伏电场\n海发光伏电场\n大风坪风电场\n白龙山风电场\n白京岩风电场\n大坝场风电场\n七舍风电场",
+        "appHtml": "<div id=\"app\"><div data-v-4fd649c8=\"\" class=\"page-layout\"><!----><div data-v-4fd649c8=\"\" class=\"page-content\"><!----><div data-v-4fd649c8=\"\" class=\"page-main\"><!----><div data-v-aee5b672=\"\" data-v-4fd649c8=\"\" class=\"index router-view\" style=\"background-image: url(&quot;img/index.afdb3f46.webp&quot;); background-position: center center; background-size: 100% 100%;\"><div data-v-aee5b672=\"\" class=\"title\"><div data-v-aee5b672=\"\" class=\"title_logo\"><img data-v-aee5b672=\"\" src=\"/project/DTGZZHDZ/logo.png\" class=\"logo\"><p data-v-aee5b672=\"\" class=\"logo_text\"> 贵州公司新能源场站智能运维平台 </p></div><div data-v-7929f686=\"\" data-v-aee5b672=\"\" class=\"firstMenu\"><div data-v-7929f686=\"\" class=\"firstMenu_cell active\"> 首页 </div><div data-v-7929f686=\"\" class=\"firstMenu_cell\"> 全景监视中心 </div><div data-v-7929f686=\"\" class=\"firstMenu_cell\"> 综合报警中心 </div><div data-v-7929f686=\"\" class=\"firstMenu_cell\"> 集中监视中心 </div><div data-v-7929f686=\"\" class=\"firstMenu_cell\"> 智能诊断中心 </div><div data-v-7929f686=\"\" class=\"firstMenu_cell\"> 智能巡视中心 </div><div data-v-7929f686=\"\" class=\"firstMenu_cell\"> 智能安防中心 </div><div data-v-7929f686=\"\" class=\"firstMenu_cell\"> 智能运维中心 </div><div data-v-7929f686=\"\" class=\"firstMenu_cell\"> 智能监测中心 </div><div data-v-7929f686=\"\" class=\"firstMenu_cell\"> 系统设置 </div></div><div data-v-aee5b672=\"\" class=\"nav_cell admin\"><img data-v-aee5b672=\"\" src=\"img/user_icon.dccf4b2b.svg\" style=\"margin-right: 1vmin;\"><span data-v-aee5b672=\"\" style=\"color: rgba(255, 255, 255, 0.8);\">王江岑</span></div></div><div data-v-aee5b672=\"\" class=\"body\"><div data-v-aee5b672=\"\" class=\"content\"><div data-v-aee5b672=\"\" class=\"content_head\"><img data-v-aee5b672=\"\" src=\"img/content_head_icon.681306b9.png\" class=\"content_head_img\"> 发电量 </div><div data-v-aee5b672=\"\" class=\"content_tag\"><div data-v-aee5b672=\"\" class=\"content_tag_top\"><div data-v-aee5b672=\"\" class=\"content_tag_top_cell\" style=\"cursor: zoom-in;\"><div data-v-aee5b672=\"\" class=\"content_tag_top_cell_value\">  </div><div data-v-aee5b672=\"\" class=\"content_tag_top_cell_unit\">万kWh</div><div data-v-aee5b672=\"\" class=\"content_tag_top_cell_label\">日发电量</div></div><div data-v-aee5b672=\"\" class=\"content_tag_top_cell\" style=\"cursor: zoom-in;\"><div data-v-aee5b672=\"\" class=\"content_tag_top_cell_value\">  </div><div data-v-aee5b672=\"\" class=\"content_tag_top_cell_unit\">万kWh</div><div data-v-aee5b672=\"\" class=\"content_tag_top_cell_label\">月发电量</div></div><div data-v-aee5b672=\"\" class=\"content_tag_top_cell\" style=\"cursor: zoom-in;\"><div data-v-aee5b672=\"\" class=\"content_tag_top_cell_value\">  </div><div data-v-aee5b672=\"\" class=\"content_tag_top_cell_unit\">万kWh</div><div data-v-aee5b672=\"\" class=\"content_tag_top_cell_label\">年发电量</div></div></div><div data-v-aee5b672=\"\" class=\"content_tag_btm\"><div data-v-aee5b672=\"\" class=\"content_tag_btm_cell\"><div data-v-aee5b672=\"\" class=\"content_tag_btm_cell_label\">安全生产天数：</div><div data-v-aee5b672=\"\" class=\"content_tag_btm_cell_value\">  </div><div data-v-aee5b672=\"\" class=\"content_tag_btm_cell_unit\">天</div></div><div data-v-aee5b672=\"\" class=\"content_tag_btm_cell\"><div data-v-aee5b672=\"\" class=\"content_tag_btm_cell_label\">总装机容量：</div><div data-v-aee5b672=\"\" class=\"content_tag_btm_cell_value\">  </div><div data-v-aee5b672=\"\" class=\"content_tag_btm_cell_unit\">MW</div></div><div data-v-aee5b672=\"\" class=\"content_tag_btm_cell\" style=\"cursor: zoom-in;\"><div data-v-aee5b672=\"\" class=\"content_tag_btm_cell_label\">实时功率：</div><div data-v-aee5b672=\"\" class=\"content_tag_btm_cell_value\">  </div><div data-v-aee5b672=\"\" class=\"content_tag_btm_cell_unit\">MW</div></div></div></div><div data-v-aee5b672=\"\" class=\"content_param\"><div data-v-aee5b672=\"\" class=\"content_param_box\"><div data-v-aee5b672=\"\" class=\"content_param_box_head\"><img data-v-aee5b672=\"\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAnCAYAAADpTqNKAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAAAHdSURBVEhLY/y/kGE3AyNDJWMcwxkGMgHj/0UM/4F6QXgNkKxhjGe4RapZMENg+v4AGfMYWBkaGSMZnhFrGLohMH3fga6axMDC0MkYzfCekGG4DIHpew80rJOBk2ESYxjDd1yGETIEou8/0GtMDIWMsQyrsBlEnCEQnQeBMehAX0Oq5NsYFH/eZ0h+MRfoi38wy0lzSYLKAoaF4vEMut8uM7Q9qGLweb+FdO/ADIE5wfrTUYbqx63nvfy2GxEdJuiGIGncDIypKgYVxivIhmGNHTyGgPT+Axq0hIGZoZ5BkfEBSACrIfGqCxkWicXhT6j/GX4BM+50BiWGMqyGRKovZ1ghEkEotUPkWRmkRw1BC6rRMMFMO9QLk8UMHsDc0A9Mwhowa0hOseAidD+wXH/CUADMWLVALh9ZhsBcAKzIxIDs5gj1FakrRcIZico8oDDBplDsxsvtr1jFPCgyhOHu/+VAA4jLxrhcMtwMefJfhuEnwwRguAQTDFwmYEmLV9H9//bAhDgRqEYfpzqChoBT4n8mhvsMmcCE2ATkCWEYRpQhMF2P/wsBy/c6oGHZwCzCAjeMJENguu7/12D4yzADaJA9WIgsQxCG+QMN6wVWYi7E5Q9coXr7PzvQY4wARLfWrDwZFi8AAAAASUVORK5CYII=\" class=\"content_param_box_head_icon\"> 风电机组信息 <img data-v-aee5b672=\"\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAxQAAAADCAYAAAAKuEkvAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAAAGfSURBVGhDYywoKPjPQAD84+Rh+KtpTEjZqPxoCFAUAsyPbjEwvXlO0AxGRkbT/v7+MwQV4lAATPMlQKlukLSYmBhDdHQ0QaMuX77MsGfPHrC6////P5o4caI8IU15eXmBTExM6wipG5UfDYHREEAJgYkTJkwoICVMgHkalImXgPRwcXExpKenE9R+//59hg0bNsDVAe1kJKgJTQHQ3k9AIV5S9Y2qHw2BkRoCwPrzPbD+FCLV/2sKueBtVVO5nwyivH9JNQKr+u+/GBn23+aEy/3791cjbOLPm6QY7jzzxlFGBkYrkJ67SsIM94GYWsD28D0G9p9/IMb9Z4jfk6G+iBSzORes6WNkZCgE6fkLbO/8NDchRTtetexnzjIwP38Jddr/aYyjHQqqhe2oQRSGwGiHgsIAHNU+GgLDIwRGOxTDIx5HfTEaAhghQJ0OxQ9gh+IfVUJ38Hco7gI7FNDO0yDrULCdPsvA8mK0Q0GVhDhqCHVDYLRDQd3wHDVtNASGaAiMdiiGaMSNOns0BAiFAHU6FKMzFITCGSZPzxkKAI6q/sI3mgEyAAAAAElFTkSuQmCC\" class=\"content_param_box_head_line\"></div><div data-v-aee5b672=\"\" class=\"content_param_box_body\"><div data-v-aee5b672=\"\" class=\"content_param_box_body_cell\"><img data-v-aee5b672=\"\" src=\"img/装机容量.5b90a7de.png\" class=\"content_param_box_body_cell_img\"><div data-v-aee5b672=\"\" class=\"content_param_box_body_cell_main\"><div data-v-aee5b672=\"\" class=\"content_param_box_body_cell_main_label\"> 装机容量 </div><div data-v-aee5b672=\"\" class=\"content_param_box_body_cell_main_value\"> - <div data-v-aee5b672=\"\" class=\"content_param_box_body_cell_main_unit\"> MW </div></div></div></div><div data-v-aee5b672=\"\" class=\"content_param_box_body_cell\" style=\"cursor: zoom-in;\"><img data-v-aee5b672=\"\" src=\"img/平均风速.7fd8a5f7.png\" class=\"content_param_box_body_cell_img\"><div data-v-aee5b672=\"\" class=\"content_param_box_body_cell_main\"><div data-v-aee5b672=\"\" class=\"content_param_box_body_cell_main_label\"> 平均风速 </div><div data-v-aee5b672=\"\" class=\"content_param_box_body_cell_main_value\"> - <div data-v-aee5b672=\"\" class=\"content_param_box_body_cell_main_unit\"> m/s </div></div></div></div><div data-v-aee5b672=\"\" class=\"content_param_box_body_cell\" style=\"cursor: zoom-in;\"><img data-v-aee5b672=\"\" src=\"img/实时功率.9ff3c0d0.png\" class=\"content_param_box_body_cell_img\"><div data-v-aee5b672=\"\" class=\"content_param_box_body_cell_main\"><div data-v-aee5b672=\"\" class=\"content_param_box_body_cell_main_label\"> 实时功率 </div><div data-v-aee5b672=\"\" class=\"content_param_box_body_cell_main_value\"> - <div data-v-aee5b672=\"\" class=\"content_param_box_body_cell_main_unit\"> MW </div></div></div></div><div data-v-aee5b672=\"\" class=\"content_param_box_body_cell\"><img data-v-aee5b672=\"\" src=\"img/装机台数.d12c1274.png\" class=\"content_param_box_body_cell_img\"><div data-v-aee5b672=\"\" class=\"content_param_box_body_cell_main\"><div data-v-aee5b672=\"\" class=\"content_param_box_body_cell_main_label\"> 装机台数 </div><div data-v-aee5b672=\"\" class=\"content_param_box_body_cell_main_value\"> - <div data-v-aee5b672=\"\" class=\"content_param_box_body_cell_main_unit\"> 台 </div></div></div></div></div></div><div data-v-aee5b672=\"\" class=\"content_param_box\"><div data-v-aee5b672=\"\" class=\"content_param_box_head\"><img data-v-aee5b672=\"\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAnCAYAAADpTqNKAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAAAHdSURBVEhLY/y/kGE3AyNDJWMcwxkGMgHj/0UM/4F6QXgNkKxhjGe4RapZMENg+v4AGfMYWBkaGSMZnhFrGLohMH3fga6axMDC0MkYzfCekGG4DIHpew80rJOBk2ESYxjDd1yGETIEou8/0GtMDIWMsQyrsBlEnCEQnQeBMehAX0Oq5NsYFH/eZ0h+MRfoi38wy0lzSYLKAoaF4vEMut8uM7Q9qGLweb+FdO/ADIE5wfrTUYbqx63nvfy2GxEdJuiGIGncDIypKgYVxivIhmGNHTyGgPT+Axq0hIGZoZ5BkfEBSACrIfGqCxkWicXhT6j/GX4BM+50BiWGMqyGRKovZ1ghEkEotUPkWRmkRw1BC6rRMMFMO9QLk8UMHsDc0A9Mwhowa0hOseAidD+wXH/CUADMWLVALh9ZhsBcAKzIxIDs5gj1FakrRcIZico8oD",
+        "inputCount": 0,
+        "buttonCount": 3,
+        "divCount": 311,
+        "canvasCount": 0,
+        "svgCount": 0,
+        "bodyClass": ""
+      }
+    },
+    {
+      "checkpoint_seconds": 120,
+      "state": {
+        "href": "https://192.168.88.231:19025/#/globalOverview/index",
+        "hash": "#/globalOverview/index",
+        "text": "贵州公司新能源场站智能运维平台\n\n首页\n全景监视中心\n综合报警中心\n集中监视中心\n智能诊断中心\n智能巡视中心\n智能安防中心\n智能运维中心\n智能监测中心\n系统设置\n王江岑\n发电量\n334.27\n万kWh\n日发电量\n2306.4\n万kWh\n月发电量\n20261.36\n万kWh\n年发电量\n安全生产天数：\n1824\n天\n总装机容量：\n692.8\nMW\n实时功率：\n299.31\nMW\n风电机组信息\n装机容量\n269.55\nMW\n平均风速\n7.77\nm/s\n实时功率\n116.2\nMW\n装机台数\n75\n台\n光伏机组信息\n装机容量\n423.25\nMW\n辐照度\n633.32\nW/m²\n实时功率\n183.11\nMW\n装机台数\n1655\n台\n集控整体监控\n无人机:\n5 台\n2\n3\n757\n机器人:\n9 台\n9\n0\n37342\n摄像头:\n731 台\n479\n252\n0\n声纹:\n45 台\n40\n5\n8\n消防报警:\n229\n安防报警:\n2064\n二氧化硫\n0.61\n万吨/年\n二氧化碳\n20.2\n万吨/年\n标准煤\n8.1\n万吨/年\n接坝河光伏电站\n贞丰长田光伏电站\n纳玉光伏电站\n双塘光伏电场\n海发光伏电场\n大风坪风电场\n白龙山风电场\n白京岩风电场\n大坝场风电场\n七舍风电场",
+        "appHtml": "<div id=\"app\"><div data-v-4fd649c8=\"\" class=\"page-layout\"><!----><div data-v-4fd649c8=\"\" class=\"page-content\"><!----><div data-v-4fd649c8=\"\" class=\"page-main\"><!----><div data-v-aee5b672=\"\" data-v-4fd649c8=\"\" class=\"index router-view\" style=\"background-image: url(&quot;img/index.afdb3f46.webp&quot;); background-position: center center; background-size: 100% 100%;\"><div data-v-aee5b672=\"\" class=\"title\"><div data-v-aee5b672=\"\" class=\"title_logo\"><img data-v-aee5b672=\"\" src=\"/favicon.ico\" class=\"logo\"><p data-v-aee5b672=\"\" class=\"logo_text\"> 贵州公司新能源场站智能运维平台 </p></div><div data-v-7929f686=\"\" data-v-aee5b672=\"\" class=\"firstMenu\"><div data-v-7929f686=\"\" class=\"firstMenu_cell active\"> 首页 </div><div data-v-7929f686=\"\" class=\"firstMenu_cell\"> 全景监视中心 </div><div data-v-7929f686=\"\" class=\"firstMenu_cell\"> 综合报警中心 </div><div data-v-7929f686=\"\" class=\"firstMenu_cell\"> 集中监视中心 </div><div data-v-7929f686=\"\" class=\"firstMenu_cell\"> 智能诊断中心 </div><div data-v-7929f686=\"\" class=\"firstMenu_cell\"> 智能巡视中心 </div><div data-v-7929f686=\"\" class=\"firstMenu_cell\"> 智能安防中心 </div><div data-v-7929f686=\"\" class=\"firstMenu_cell\"> 智能运维中心 </div><div data-v-7929f686=\"\" class=\"firstMenu_cell\"> 智能监测中心 </div><div data-v-7929f686=\"\" class=\"firstMenu_cell\"> 系统设置 </div></div><div data-v-aee5b672=\"\" class=\"nav_cell admin\"><img data-v-aee5b672=\"\" src=\"img/user_icon.dccf4b2b.svg\" style=\"margin-right: 1vmin;\"><span data-v-aee5b672=\"\" style=\"color: rgba(255, 255, 255, 0.8);\">王江岑</span></div></div><div data-v-aee5b672=\"\" class=\"body\"><div data-v-aee5b672=\"\" class=\"content\"><div data-v-aee5b672=\"\" class=\"content_head\"><img data-v-aee5b672=\"\" src=\"img/content_head_icon.681306b9.png\" class=\"content_head_img\"> 发电量 </div><div data-v-aee5b672=\"\" class=\"content_tag\"><div data-v-aee5b672=\"\" class=\"content_tag_top\"><div data-v-aee5b672=\"\" class=\"content_tag_top_cell\" style=\"cursor: zoom-in;\"><div data-v-aee5b672=\"\" class=\"content_tag_top_cell_value\"> 334.27 </div><div data-v-aee5b672=\"\" class=\"content_tag_top_cell_unit\">万kWh</div><div data-v-aee5b672=\"\" class=\"content_tag_top_cell_label\">日发电量</div></div><div data-v-aee5b672=\"\" class=\"content_tag_top_cell\" style=\"cursor: zoom-in;\"><div data-v-aee5b672=\"\" class=\"content_tag_top_cell_value\"> 2306.4 </div><div data-v-aee5b672=\"\" class=\"content_tag_top_cell_unit\">万kWh</div><div data-v-aee5b672=\"\" class=\"content_tag_top_cell_label\">月发电量</div></div><div data-v-aee5b672=\"\" class=\"content_tag_top_cell\" style=\"cursor: zoom-in;\"><div data-v-aee5b672=\"\" class=\"content_tag_top_cell_value\"> 20261.36 </div><div data-v-aee5b672=\"\" class=\"content_tag_top_cell_unit\">万kWh</div><div data-v-aee5b672=\"\" class=\"content_tag_top_cell_label\">年发电量</div></div></div><div data-v-aee5b672=\"\" class=\"content_tag_btm\"><div data-v-aee5b672=\"\" class=\"content_tag_btm_cell\"><div data-v-aee5b672=\"\" class=\"content_tag_btm_cell_label\">安全生产天数：</div><div data-v-aee5b672=\"\" class=\"content_tag_btm_cell_value\"> 1824 </div><div data-v-aee5b672=\"\" class=\"content_tag_btm_cell_unit\">天</div></div><div data-v-aee5b672=\"\" class=\"content_tag_btm_cell\"><div data-v-aee5b672=\"\" class=\"content_tag_btm_cell_label\">总装机容量：</div><div data-v-aee5b672=\"\" class=\"content_tag_btm_cell_value\"> 692.8 </div><div data-v-aee5b672=\"\" class=\"content_tag_btm_cell_unit\">MW</div></div><div data-v-aee5b672=\"\" class=\"content_tag_btm_cell\" style=\"cursor: zoom-in;\"><div data-v-aee5b672=\"\" class=\"content_tag_btm_cell_label\">实时功率：</div><div data-v-aee5b672=\"\" class=\"content_tag_btm_cell_value\"> 299.31 </div><div data-v-aee5b672=\"\" class=\"content_tag_btm_cell_unit\">MW</div></div></div></div><div data-v-aee5b672=\"\" class=\"content_param\"><div data-v-aee5b672=\"\" class=\"content_param_box\"><div data-v-aee5b672=\"\" class=\"content_param_box_head\"><img data-v-aee5b672=\"\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAnCAYAAADpTqNKAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAAAHdSURBVEhLY/y/kGE3AyNDJWMcwxkGMgHj/0UM/4F6QXgNkKxhjGe4RapZMENg+v4AGfMYWBkaGSMZnhFrGLohMH3fga6axMDC0MkYzfCekGG4DIHpew80rJOBk2ESYxjDd1yGETIEou8/0GtMDIWMsQyrsBlEnCEQnQeBMehAX0Oq5NsYFH/eZ0h+MRfoi38wy0lzSYLKAoaF4vEMut8uM7Q9qGLweb+FdO/ADIE5wfrTUYbqx63nvfy2GxEdJuiGIGncDIypKgYVxivIhmGNHTyGgPT+Axq0hIGZoZ5BkfEBSACrIfGqCxkWicXhT6j/GX4BM+50BiWGMqyGRKovZ1ghEkEotUPkWRmkRw1BC6rRMMFMO9QLk8UMHsDc0A9Mwhowa0hOseAidD+wXH/CUADMWLVALh9ZhsBcAKzIxIDs5gj1FakrRcIZico8oDDBplDsxsvtr1jFPCgyhOHu/+VAA4jLxrhcMtwMefJfhuEnwwRguAQTDFwmYEmLV9H9//bAhDgRqEYfpzqChoBT4n8mhvsMmcCE2ATkCWEYRpQhMF2P/wsBy/c6oGHZwCzCAjeMJENguu7/12D4yzADaJA9WIgsQxCG+QMN6wVWYi7E5Q9coXr7PzvQY4wARLfWrDwZFi8AAAAASUVORK5CYII=\" class=\"content_param_box_head_icon\"> 风电机组信息 <img data-v-aee5b672=\"\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAxQAAAADCAYAAAAKuEkvAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAAAGfSURBVGhDYywoKPjPQAD84+Rh+KtpTEjZqPxoCFAUAsyPbjEwvXlO0AxGRkbT/v7+MwQV4lAATPMlQKlukLSYmBhDdHQ0QaMuX77MsGfPHrC6////P5o4caI8IU15eXmBTExM6wipG5UfDYHREEAJgYkTJkwoICVMgHkalImXgPRwcXExpKenE9R+//59hg0bNsDVAe1kJKgJTQHQ3k9AIV5S9Y2qHw2BkRoCwPrzPbD+FCLV/2sKueBtVVO5nwyivH9JNQKr+u+/GBn23+aEy/3791cjbOLPm6QY7jzzxlFGBkYrkJ67SsIM94GYWsD28D0G9p9/IMb9Z4jfk6G+iBSzORes6WNkZCgE6fkLbO/8NDchRTtetexnzjIwP38Jddr/aYyjHQqqhe2oQRSGwGiHgsIAHNU+GgLDIwRGOxTDIx5HfTEaAhghQJ0OxQ9gh+IfVUJ38Hco7gI7FNDO0yDrULCdPsvA8mK0Q0GVhDhqCHVDYLRDQd3wHDVtNASGaAiMdiiGaMSNOns0BAiFAHU6FKMzFITCGSZPzxkKAI6q/sI3mgEyAAAAAElFTkSuQmCC\" class=\"content_param_box_head_line\"></div><div data-v-aee5b672=\"\" class=\"content_param_box_body\"><div data-v-aee5b672=\"\" class=\"content_param_box_body_cell\"><img data-v-aee5b672=\"\" src=\"img/装机容量.5b90a7de.png\" class=\"content_param_box_body_cell_img\"><div data-v-aee5b672=\"\" class=\"content_param_box_body_cell_main\"><div data-v-aee5b672=\"\" class=\"content_param_box_body_cell_main_label\"> 装机容量 </div><div data-v-aee5b672=\"\" class=\"content_param_box_body_cell_main_value\"> 269.55 <div data-v-aee5b672=\"\" class=\"content_param_box_body_cell_main_unit\"> MW </div></div></div></div><div data-v-aee5b672=\"\" class=\"content_param_box_body_cell\" style=\"cursor: zoom-in;\"><img data-v-aee5b672=\"\" src=\"img/平均风速.7fd8a5f7.png\" class=\"content_param_box_body_cell_img\"><div data-v-aee5b672=\"\" class=\"content_param_box_body_cell_main\"><div data-v-aee5b672=\"\" class=\"content_param_box_body_cell_main_label\"> 平均风速 </div><div data-v-aee5b672=\"\" class=\"content_param_box_body_cell_main_value\"> 7.77 <div data-v-aee5b672=\"\" class=\"content_param_box_body_cell_main_unit\"> m/s </div></div></div></div><div data-v-aee5b672=\"\" class=\"content_param_box_body_cell\" style=\"cursor: zoom-in;\"><img data-v-aee5b672=\"\" src=\"img/实时功率.9ff3c0d0.png\" class=\"content_param_box_body_cell_img\"><div data-v-aee5b672=\"\" class=\"content_param_box_body_cell_main\"><div data-v-aee5b672=\"\" class=\"content_param_box_body_cell_main_label\"> 实时功率 </div><div data-v-aee5b672=\"\" class=\"content_param_box_body_cell_main_value\"> 116.2 <div data-v-aee5b672=\"\" class=\"content_param_box_body_cell_main_unit\"> MW </div></div></div></div><div data-v-aee5b672=\"\" class=\"content_param_box_body_cell\"><img data-v-aee5b672=\"\" src=\"img/装机台数.d12c1274.png\" class=\"content_param_box_body_cell_img\"><div data-v-aee5b672=\"\" class=\"content_param_box_body_cell_main\"><div data-v-aee5b672=\"\" class=\"content_param_box_body_cell_main_label\"> 装机台数 </div><div data-v-aee5b672=\"\" class=\"content_param_box_body_cell_main_value\"> 75 <div data-v-aee5b672=\"\" class=\"content_param_box_body_cell_main_unit\"> 台 </div></div></div></div></div></div><div data-v-aee5b672=\"\" class=\"content_param_box\"><div data-v-aee5b672=\"\" class=\"content_param_box_head\"><img data-v-aee5b672=\"\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAnCAYAAADpTqNKAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAAAHdSURBVEhLY/y/kGE3AyNDJWMcwxkGMgHj/0UM/4F6QXgNkKxhjGe4RapZMENg+v4AGfMYWBkaGSMZnhFrGLohMH3fga6axMDC0MkYzfCekGG4DIHpew80rJOBk2ESYxjDd1yGETIEou8/0GtMDIWMsQyrsBlEnCEQnQeBMehAX0Oq5NsYFH/eZ0h+MRfoi38wy0lzSYLKAoaF4vEMut8uM7Q9qGLweb+FdO/ADIE5wfrTUYbqx63nvfy2GxEdJuiGIGncDIypKgYVxivIhmGNHTyGgPT+Axq0hIGZoZ5BkfEBSACrIfGqCxkWicXhT6j/GX4BM+50BiWGMqyGRKovZ1ghEkEotUPkWRmkRw1BC6rRMMFMO9QLk8UMHsDc0A9Mwhowa0hOseAidD+wXH/CUADMWLVA",
+        "inputCount": 0,
+        "buttonCount": 3,
+        "divCount": 311,
+        "canvasCount": 0,
+        "svgCount": 0,
+        "bodyClass": ""
+      }
+    },
+    {
+      "checkpoint_seconds": 180,
+      "state": {
+        "href": "https://192.168.88.231:19025/#/globalOverview/index",
+        "hash": "#/globalOverview/index",
+        "text": "贵州公司新能源场站智能运维平台\n\n首页\n全景监视中心\n综合报警中心\n集中监视中心\n智能诊断中心\n智能巡视中心\n智能安防中心\n智能运维中心\n智能监测中心\n系统设置\n王江岑\n发电量\n334.9\n万kWh\n日发电量\n2307.03\n万kWh\n月发电量\n20261.99\n万kWh\n年发电量\n安全生产天数：\n1824\n天\n总装机容量：\n692.8\nMW\n实时功率：\n291.46\nMW\n风电机组信息\n装机容量\n269.55\nMW\n平均风速\n8.13\nm/s\n实时功率\n121.14\nMW\n装机台数\n75\n台\n光伏机组信息\n装机容量\n423.25\nMW\n辐照度\n645.34\nW/m²\n实时功率\n170.32\nMW\n装机台数\n1655\n台\n集控整体监控\n无人机:\n5 台\n2\n3\n757\n机器人:\n9 台\n9\n0\n37342\n摄像头:\n731 台\n479\n252\n0\n声纹:\n45 台\n40\n5\n8\n消防报警:\n229\n安防报警:\n2064\n二氧化硫\n0.61\n万吨/年\n二氧化碳\n20.2\n万吨/年\n标准煤\n8.1\n万吨/年\n接坝河光伏电站\n贞丰长田光伏电站\n纳玉光伏电站\n双塘光伏电场\n海发光伏电场\n大风坪风电场\n白龙山风电场\n白京岩风电场\n大坝场风电场\n七舍风电场",
+        "appHtml": "<div id=\"app\"><div data-v-4fd649c8=\"\" class=\"page-layout\"><!----><div data-v-4fd649c8=\"\" class=\"page-content\"><!----><div data-v-4fd649c8=\"\" class=\"page-main\"><!----><div data-v-aee5b672=\"\" data-v-4fd649c8=\"\" class=\"index router-view\" style=\"background-image: url(&quot;img/index.afdb3f46.webp&quot;); background-position: center center; background-size: 100% 100%;\"><div data-v-aee5b672=\"\" class=\"title\"><div data-v-aee5b672=\"\" class=\"title_logo\"><img data-v-aee5b672=\"\" src=\"/favicon.ico\" class=\"logo\"><p data-v-aee5b672=\"\" class=\"logo_text\"> 贵州公司新能源场站智能运维平台 </p></div><div data-v-7929f686=\"\" data-v-aee5b672=\"\" class=\"firstMenu\"><div data-v-7929f686=\"\" class=\"firstMenu_cell active\"> 首页 </div><div data-v-7929f686=\"\" class=\"firstMenu_cell\"> 全景监视中心 </div><div data-v-7929f686=\"\" class=\"firstMenu_cell\"> 综合报警中心 </div><div data-v-7929f686=\"\" class=\"firstMenu_cell\"> 集中监视中心 </div><div data-v-7929f686=\"\" class=\"firstMenu_cell\"> 智能诊断中心 </div><div data-v-7929f686=\"\" class=\"firstMenu_cell\"> 智能巡视中心 </div><div data-v-7929f686=\"\" class=\"firstMenu_cell\"> 智能安防中心 </div><div data-v-7929f686=\"\" class=\"firstMenu_cell\"> 智能运维中心 </div><div data-v-7929f686=\"\" class=\"firstMenu_cell\"> 智能监测中心 </div><div data-v-7929f686=\"\" class=\"firstMenu_cell\"> 系统设置 </div></div><div data-v-aee5b672=\"\" class=\"nav_cell admin\"><img data-v-aee5b672=\"\" src=\"img/user_icon.dccf4b2b.svg\" style=\"margin-right: 1vmin;\"><span data-v-aee5b672=\"\" style=\"color: rgba(255, 255, 255, 0.8);\">王江岑</span></div></div><div data-v-aee5b672=\"\" class=\"body\"><div data-v-aee5b672=\"\" class=\"content\"><div data-v-aee5b672=\"\" class=\"content_head\"><img data-v-aee5b672=\"\" src=\"img/content_head_icon.681306b9.png\" class=\"content_head_img\"> 发电量 </div><div data-v-aee5b672=\"\" class=\"content_tag\"><div data-v-aee5b672=\"\" class=\"content_tag_top\"><div data-v-aee5b672=\"\" class=\"content_tag_top_cell\" style=\"cursor: zoom-in;\"><div data-v-aee5b672=\"\" class=\"content_tag_top_cell_value\"> 334.9 </div><div data-v-aee5b672=\"\" class=\"content_tag_top_cell_unit\">万kWh</div><div data-v-aee5b672=\"\" class=\"content_tag_top_cell_label\">日发电量</div></div><div data-v-aee5b672=\"\" class=\"content_tag_top_cell\" style=\"cursor: zoom-in;\"><div data-v-aee5b672=\"\" class=\"content_tag_top_cell_value\"> 2307.03 </div><div data-v-aee5b672=\"\" class=\"content_tag_top_cell_unit\">万kWh</div><div data-v-aee5b672=\"\" class=\"content_tag_top_cell_label\">月发电量</div></div><div data-v-aee5b672=\"\" class=\"content_tag_top_cell\" style=\"cursor: zoom-in;\"><div data-v-aee5b672=\"\" class=\"content_tag_top_cell_value\"> 20261.99 </div><div data-v-aee5b672=\"\" class=\"content_tag_top_cell_unit\">万kWh</div><div data-v-aee5b672=\"\" class=\"content_tag_top_cell_label\">年发电量</div></div></div><div data-v-aee5b672=\"\" class=\"content_tag_btm\"><div data-v-aee5b672=\"\" class=\"content_tag_btm_cell\"><div data-v-aee5b672=\"\" class=\"content_tag_btm_cell_label\">安全生产天数：</div><div data-v-aee5b672=\"\" class=\"content_tag_btm_cell_value\"> 1824 </div><div data-v-aee5b672=\"\" class=\"content_tag_btm_cell_unit\">天</div></div><div data-v-aee5b672=\"\" class=\"content_tag_btm_cell\"><div data-v-aee5b672=\"\" class=\"content_tag_btm_cell_label\">总装机容量：</div><div data-v-aee5b672=\"\" class=\"content_tag_btm_cell_value\"> 692.8 </div><div data-v-aee5b672=\"\" class=\"content_tag_btm_cell_unit\">MW</div></div><div data-v-aee5b672=\"\" class=\"content_tag_btm_cell\" style=\"cursor: zoom-in;\"><div data-v-aee5b672=\"\" class=\"content_tag_btm_cell_label\">实时功率：</div><div data-v-aee5b672=\"\" class=\"content_tag_btm_cell_value\"> 291.46 </div><div data-v-aee5b672=\"\" class=\"content_tag_btm_cell_unit\">MW</div></div></div></div><div data-v-aee5b672=\"\" class=\"content_param\"><div data-v-aee5b672=\"\" class=\"content_param_box\"><div data-v-aee5b672=\"\" class=\"content_param_box_head\"><img data-v-aee5b672=\"\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAnCAYAAADpTqNKAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAAAHdSURBVEhLY/y/kGE3AyNDJWMcwxkGMgHj/0UM/4F6QXgNkKxhjGe4RapZMENg+v4AGfMYWBkaGSMZnhFrGLohMH3fga6axMDC0MkYzfCekGG4DIHpew80rJOBk2ESYxjDd1yGETIEou8/0GtMDIWMsQyrsBlEnCEQnQeBMehAX0Oq5NsYFH/eZ0h+MRfoi38wy0lzSYLKAoaF4vEMut8uM7Q9qGLweb+FdO/ADIE5wfrTUYbqx63nvfy2GxEdJuiGIGncDIypKgYVxivIhmGNHTyGgPT+Axq0hIGZoZ5BkfEBSACrIfGqCxkWicXhT6j/GX4BM+50BiWGMqyGRKovZ1ghEkEotUPkWRmkRw1BC6rRMMFMO9QLk8UMHsDc0A9Mwhowa0hOseAidD+wXH/CUADMWLVALh9ZhsBcAKzIxIDs5gj1FakrRcIZico8oDDBplDsxsvtr1jFPCgyhOHu/+VAA4jLxrhcMtwMefJfhuEnwwRguAQTDFwmYEmLV9H9//bAhDgRqEYfpzqChoBT4n8mhvsMmcCE2ATkCWEYRpQhMF2P/wsBy/c6oGHZwCzCAjeMJENguu7/12D4yzADaJA9WIgsQxCG+QMN6wVWYi7E5Q9coXr7PzvQY4wARLfWrDwZFi8AAAAASUVORK5CYII=\" class=\"content_param_box_head_icon\"> 风电机组信息 <img data-v-aee5b672=\"\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAxQAAAADCAYAAAAKuEkvAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAAAGfSURBVGhDYywoKPjPQAD84+Rh+KtpTEjZqPxoCFAUAsyPbjEwvXlO0AxGRkbT/v7+MwQV4lAATPMlQKlukLSYmBhDdHQ0QaMuX77MsGfPHrC6////P5o4caI8IU15eXmBTExM6wipG5UfDYHREEAJgYkTJkwoICVMgHkalImXgPRwcXExpKenE9R+//59hg0bNsDVAe1kJKgJTQHQ3k9AIV5S9Y2qHw2BkRoCwPrzPbD+FCLV/2sKueBtVVO5nwyivH9JNQKr+u+/GBn23+aEy/3791cjbOLPm6QY7jzzxlFGBkYrkJ67SsIM94GYWsD28D0G9p9/IMb9Z4jfk6G+iBSzORes6WNkZCgE6fkLbO/8NDchRTtetexnzjIwP38Jddr/aYyjHQqqhe2oQRSGwGiHgsIAHNU+GgLDIwRGOxTDIx5HfTEaAhghQJ0OxQ9gh+IfVUJ38Hco7gI7FNDO0yDrULCdPsvA8mK0Q0GVhDhqCHVDYLRDQd3wHDVtNASGaAiMdiiGaMSNOns0BAiFAHU6FKMzFITCGSZPzxkKAI6q/sI3mgEyAAAAAElFTkSuQmCC\" class=\"content_param_box_head_line\"></div><div data-v-aee5b672=\"\" class=\"content_param_box_body\"><div data-v-aee5b672=\"\" class=\"content_param_box_body_cell\"><img data-v-aee5b672=\"\" src=\"img/装机容量.5b90a7de.png\" class=\"content_param_box_body_cell_img\"><div data-v-aee5b672=\"\" class=\"content_param_box_body_cell_main\"><div data-v-aee5b672=\"\" class=\"content_param_box_body_cell_main_label\"> 装机容量 </div><div data-v-aee5b672=\"\" class=\"content_param_box_body_cell_main_value\"> 269.55 <div data-v-aee5b672=\"\" class=\"content_param_box_body_cell_main_unit\"> MW </div></div></div></div><div data-v-aee5b672=\"\" class=\"content_param_box_body_cell\" style=\"cursor: zoom-in;\"><img data-v-aee5b672=\"\" src=\"img/平均风速.7fd8a5f7.png\" class=\"content_param_box_body_cell_img\"><div data-v-aee5b672=\"\" class=\"content_param_box_body_cell_main\"><div data-v-aee5b672=\"\" class=\"content_param_box_body_cell_main_label\"> 平均风速 </div><div data-v-aee5b672=\"\" class=\"content_param_box_body_cell_main_value\"> 8.13 <div data-v-aee5b672=\"\" class=\"content_param_box_body_cell_main_unit\"> m/s </div></div></div></div><div data-v-aee5b672=\"\" class=\"content_param_box_body_cell\" style=\"cursor: zoom-in;\"><img data-v-aee5b672=\"\" src=\"img/实时功率.9ff3c0d0.png\" class=\"content_param_box_body_cell_img\"><div data-v-aee5b672=\"\" class=\"content_param_box_body_cell_main\"><div data-v-aee5b672=\"\" class=\"content_param_box_body_cell_main_label\"> 实时功率 </div><div data-v-aee5b672=\"\" class=\"content_param_box_body_cell_main_value\"> 121.14 <div data-v-aee5b672=\"\" class=\"content_param_box_body_cell_main_unit\"> MW </div></div></div></div><div data-v-aee5b672=\"\" class=\"content_param_box_body_cell\"><img data-v-aee5b672=\"\" src=\"img/装机台数.d12c1274.png\" class=\"content_param_box_body_cell_img\"><div data-v-aee5b672=\"\" class=\"content_param_box_body_cell_main\"><div data-v-aee5b672=\"\" class=\"content_param_box_body_cell_main_label\"> 装机台数 </div><div data-v-aee5b672=\"\" class=\"content_param_box_body_cell_main_value\"> 75 <div data-v-aee5b672=\"\" class=\"content_param_box_body_cell_main_unit\"> 台 </div></div></div></div></div></div><div data-v-aee5b672=\"\" class=\"content_param_box\"><div data-v-aee5b672=\"\" class=\"content_param_box_head\"><img data-v-aee5b672=\"\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAnCAYAAADpTqNKAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAAAHdSURBVEhLY/y/kGE3AyNDJWMcwxkGMgHj/0UM/4F6QXgNkKxhjGe4RapZMENg+v4AGfMYWBkaGSMZnhFrGLohMH3fga6axMDC0MkYzfCekGG4DIHpew80rJOBk2ESYxjDd1yGETIEou8/0GtMDIWMsQyrsBlEnCEQnQeBMehAX0Oq5NsYFH/eZ0h+MRfoi38wy0lzSYLKAoaF4vEMut8uM7Q9qGLweb+FdO/ADIE5wfrTUYbqx63nvfy2GxEdJuiGIGncDIypKgYVxivIhmGNHTyGgPT+Axq0hIGZoZ5BkfEBSACrIfGqCxkWicXhT6j/GX4BM+50BiWGMqyGRKovZ1ghEkEotUPkWRmkRw1BC6rRMMFMO9QLk8UMHsDc0A9Mwhowa0hOseAidD+wXH/CUADMWLV",
+        "inputCount": 0,
+        "buttonCount": 3,
+        "divCount": 311,
+        "canvasCount": 0,
+        "svgCount": 0,
+        "bodyClass": ""
+      }
+    }
+  ],
+  "logs": [
+    {
+      "type": "console",
+      "level": "log",
+      "text": "初始化uid 1775633388056"
+    },
+    {
+      "type": "console",
+      "level": "log",
+      "text": "触发赋值 null"
+    },
+    {
+      "type": "console",
+      "level": "info",
+      "text": "Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://192.168.88.231:19025/fonts/element-icons.535877f5.woff"
+    },
+    {
+      "type": "console",
+      "level": "log",
+      "text": "校验成功"
+    },
+    {
+      "type": "console",
+      "level": "log",
+      "text": "密码强度：高"
+    },
+    {
+      "type": "console",
+      "level": "log",
+      "text": "-----------项目获取成功"
+    },
+    {
+      "type": "console",
+      "level": "log",
+      "text": "-----------组织结构获取成功"
+    },
+    {
+      "type": "console",
+      "level": "log",
+      "text": "-----------风机状态获取成功"
+    },
+    {
+      "type": "console",
+      "level": "log",
+      "text": "-----------光伏状态获取成功"
+    },
+    {
+      "type": "console",
+      "level": "error",
+      "text": "Failed to load resource: the server responded with a status of 460 (Client Error (460))"
+    },
+    {
+      "type": "console",
+      "level": "error",
+      "text": "获取储能状态失败 Error: Request failed with status code 460\n    at e.exports (https://192.168.88.231:19025/js/chunk-vendors.f5a45657.js:30:63927)\n    at e.exports (https://192.168.88.231:19025/js/chunk-vendors.f5a45657.js:16:5293)\n    at f.onreadystatechange (https://192.168.88.231:19025/js/chunk-vendors.f5a45657.js:30:16854)"
+    },
+    {
+      "type": "console",
+      "level": "error",
+      "text": "Failed to load resource: the server responded with a status of 460 (Client Error (460))"
+    },
+    {
+      "type": "console",
+      "level": "error",
+      "text": "获取储能状态失败 Error: Request failed with status code 460\n    at e.exports (https://192.168.88.231:19025/js/chunk-vendors.f5a45657.js:30:63927)\n    at e.exports (https://192.168.88.231:19025/js/chunk-vendors.f5a45657.js:16:5293)\n    at f.onreadystatechange (https://192.168.88.231:19025/js/chunk-vendors.f5a45657.js:30:16854)"
+    },
+    {
+      "type": "console",
+      "level": "log",
+      "text": "-----------报警级别获取成功"
+    },
+    {
+      "type": "console",
+      "level": "log",
+      "text": "-----------报警弹窗配置数据获取成功 []"
+    },
+    {
+      "type": "console",
+      "level": "log",
+      "text": "{id: undefined, username: undefined, password: undefined, nickname: undefined, headImgUrl: undefined} -----------用户信息"
+    },
+    {
+      "type": "console",
+      "level": "log",
+      "text": "{companies: undefined, companyPer: undefined, farmPer: undefined, farms: undefined, project: undefined} -----------用户权限信息"
+    },
+    {
+      "type": "console",
+      "level": "log",
+      "text": "数据填充完毕,准备进入系统"
+    },
+    {
+      "type": "console",
+      "level": "log",
+      "text": "视频播放结束"
+    },
+    {
+      "type": "console",
+      "level": "log",
+      "text": "Loaded claygl, version 1.3.0"
+    },
+    {
+      "type": "console",
+      "level": "log",
+      "text": "Loaded echarts, version 4.9.0"
+    },
+    {
+      "type": "console",
+      "level": "error",
+      "text": "未找到historyCtrastCurve"
+    },
+    {
+      "type": "console",
+      "level": "log",
+      "text": "-----------homePage: SMART"
+    },
+    {
+      "type": "console",
+      "level": "log",
+      "text": "-----------payload: {component: Promise, hiddenNav: true}"
+    },
+    {
+      "type": "console",
+      "level": "log",
+      "text": "-----------homePage: SMART"
+    },
+    {
+      "type": "console",
+      "level": "log",
+      "text": "-----------payload: {component: Promise, hiddenNav: true}"
+    },
+    {
+      "type": "console",
+      "level": "log",
+      "text": "触发赋值 {flag: false, dev: , tag: , tagName: , factor: 1}"
+    },
+    {
+      "type": "console",
+      "level": "info",
+      "text": "Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://192.168.88.231:19025/fonts/projt.1726685c.ttf"
+    },
+    {
+      "type": "console",
+      "level": "info",
+      "text": "Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://192.168.88.231:19025/fonts/YouSheBiaoTiHei-title.1726685c.ttf"
+    },
+    {
+      "type": "console",
+      "level": "info",
+      "text": "Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://192.168.88.231:19025/config/icon/iconfont.woff2?t=1767578353959"
+    },
+    {
+      "type": "pageerror",
+      "text": "The play() request was interrupted because the media was removed from the document. https://goo.gl/LdLk22"
+    },
+    {
+      "type": "console",
+      "level": "error",
+      "text": "获取设备状态数据失败 TypeError: Cannot read properties of undefined (reading 'data')\n    at https://192.168.88.231:19025/js/app.c59a49fd.js:1:208598\n    at async a.getStateData (https://192.168.88.231:19025/js/chunk-8ce48fde.3cd31aec.js:1:16393)\n    at async c.start (https://192.168.88.231:19025/js/app.c59a49fd.js:1:223852)\n    at async Object.t [as create] (https://192.168.88.231:19025/js/app.c59a49fd.js:1:224131)"
+    },
+    {
+      "type": "console",
+      "level": "error",
+      "text": "获取实时数据失败 TypeError: Cannot read properties of undefined (reading 'data')\n    at https://192.168.88.231:19025/js/app.c59a49fd.js:1:208598\n    at async a.getRealData (https://192.168.88.231:19025/js/chunk-8ce48fde.3cd31aec.js:1:17269)\n    at async c.start (https://192.168.88.231:19025/js/app.c59a49fd.js:1:223852)\n    at async Object.t [as create] (https://192.168.88.231:19025/js/app.c59a49fd.js:1:224131)"
+    },
+    {
+      "type": "console",
+      "level": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "type": "console",
+      "level": "error",
+      "text": "获取设备状态数据失败 TypeError: Cannot read properties of undefined (reading 'data')\n    at https://192.168.88.231:19025/js/app.c59a49fd.js:1:208598\n    at async a.getStateData (https://192.168.88.231:19025/js/chunk-8ce48fde.3cd31aec.js:1:16393)\n    at async c.start (https://192.168.88.231:19025/js/app.c59a49fd.js:1:223852)"
+    },
+    {
+      "type": "console",
+      "level": "error",
+      "text": "获取实时数据失败 TypeError: Cannot read properties of undefined (reading 'data')\n    at https://192.168.88.231:19025/js/app.c59a49fd.js:1:208598\n    at async a.getRealData (https://192.168.88.231:19025/js/chunk-8ce48fde.3cd31aec.js:1:17269)\n    at async c.start (https://192.168.88.231:19025/js/app.c59a49fd.js:1:223852)"
+    },
+    {
+      "type": "console",
+      "level": "error",
+      "text": "获取设备状态数据失败 TypeError: Cannot read properties of undefined (reading 'data')\n    at https://192.168.88.231:19025/js/app.c59a49fd.js:1:208598\n    at async a.getStateData (https://192.168.88.231:19025/js/chunk-8ce48fde.3cd31aec.js:1:16393)\n    at async c.start (https://192.168.88.231:19025/js/app.c59a49fd.js:1:223852)"
+    },
+    {
+      "type": "console",
+      "level": "error",
+      "text": "获取实时数据失败 TypeError: Cannot read properties of undefined (reading 'data')\n    at https://192.168.88.231:19025/js/app.c59a49fd.js:1:208598\n    at async a.getRealData (https://192.168.88.231:19025/js/chunk-8ce48fde.3cd31aec.js:1:17269)\n    at async c.start (https://192.168.88.231:19025/js/app.c59a49fd.js:1:223852)"
+    },
+    {
+      "type": "console",
+      "level": "error",
+      "text": "获取设备状态数据失败 TypeError: Cannot read properties of undefined (reading 'data')\n    at https://192.168.88.231:19025/js/app.c59a49fd.js:1:208598\n    at async a.getStateData (https://192.168.88.231:19025/js/chunk-8ce48fde.3cd31aec.js:1:16393)\n    at async c.start (https://192.168.88.231:19025/js/app.c59a49fd.js:1:223852)"
+    },
+    {
+      "type": "console",
+      "level": "error",
+      "text": "Error caching or loading videos: TypeError: Cannot read properties of undefined (reading 'load')\n    at a.cacheAndSetupVideos (https://192.168.88.231:19025/js/app.c59a49fd.js:1:100962)"
+    }
+  ]
+}

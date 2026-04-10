@@ -1,0 +1,52 @@
+[
+  {
+    "timestamp": "2026-04-08T17:17:01",
+    "level": "error",
+    "text": "Failed to load resource: the server responded with a status of 460 (Client Error (460))"
+  },
+  {
+    "timestamp": "2026-04-08T17:17:01",
+    "level": "error",
+    "text": "获取储能状态失败 Error: Request failed with status code 460\n    at e.exports (https://192.168.88.238:9608/js/chunk-vendors.0f86d0fb.js:7:77180)\n    at e.exports (https://192.168.88.238:9608/js/chunk-vendors.0f86d0fb.js:13:25270)\n    at f.onreadystatechange (https://192.168.88.238:9608/js/chunk-vendors.0f86d0fb.js:42:86232)"
+  },
+  {
+    "timestamp": "2026-04-08T17:17:01",
+    "level": "error",
+    "text": "Failed to load resource: the server responded with a status of 460 (Client Error (460))"
+  },
+  {
+    "timestamp": "2026-04-08T17:17:01",
+    "level": "error",
+    "text": "获取储能状态失败 Error: Request failed with status code 460\n    at e.exports (https://192.168.88.238:9608/js/chunk-vendors.0f86d0fb.js:7:77180)\n    at e.exports (https://192.168.88.238:9608/js/chunk-vendors.0f86d0fb.js:13:25270)\n    at f.onreadystatechange (https://192.168.88.238:9608/js/chunk-vendors.0f86d0fb.js:42:86232)"
+  },
+  {
+    "timestamp": "2026-04-08T17:17:07",
+    "level": "error",
+    "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+  },
+  {
+    "timestamp": "2026-04-08T17:17:28",
+    "level": "error",
+    "text": "Failed to load resource: the server responded with a status of 460 (Client Error (460))"
+  },
+  {
+    "timestamp": "2026-04-08T17:17:28",
+    "level": "error",
+    "text": "获取储能状态失败 Error: Request failed with status code 460\n    at e.exports (https://192.168.88.238:9608/js/chunk-vendors.0f86d0fb.js:7:77180)\n    at e.exports (https://192.168.88.238:9608/js/chunk-vendors.0f86d0fb.js:13:25270)\n    at f.onreadystatechange (https://192.168.88.238:9608/js/chunk-vendors.0f86d0fb.js:42:86232)"
+  },
+  {
+    "timestamp": "2026-04-08T17:17:29",
+    "level": "error",
+    "text": "Failed to load resource: the server responded with a status of 460 (Client Error (460))"
+  },
+  {
+    "timestamp": "2026-04-08T17:17:29",
+    "level": "error",
+    "text": "获取储能状态失败 Error: Request failed with status code 460\n    at e.exports (https://192.168.88.238:9608/js/chunk-vendors.0f86d0fb.js:7:77180)\n    at e.exports (https://192.168.88.238:9608/js/chunk-vendors.0f86d0fb.js:13:25270)\n    at f.onreadystatechange (https://192.168.88.238:9608/js/chunk-vendors.0f86d0fb.js:42:86232)"
+  },
+  {
+    "timestamp": "2026-04-08T17:17:34",
+    "level": "error",
+    "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+  }
+]

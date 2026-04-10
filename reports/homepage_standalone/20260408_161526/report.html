@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <title>首页自动化测试报告</title>
+  <style>
+    body { font-family: 'Segoe UI', sans-serif; margin: 24px; background: #f5f7fb; color: #1f2937; }
+    h1 { margin-bottom: 8px; }
+    .summary { background: #fff; border-radius: 12px; padding: 16px 20px; margin-bottom: 20px; box-shadow: 0 6px 18px rgba(15, 23, 42, 0.08); }
+    table { width: 100%; border-collapse: collapse; background: #fff; box-shadow: 0 6px 18px rgba(15, 23, 42, 0.08); }
+    th, td { border: 1px solid #dbe2ea; padding: 12px; vertical-align: top; text-align: left; font-size: 14px; }
+    th { background: #0f172a; color: #fff; }
+    tr.passed td { background: #f0fdf4; }
+    tr.failed td { background: #fef2f2; }
+    code { background: #eef2ff; padding: 2px 6px; border-radius: 4px; }
+    .artifact { margin-bottom: 12px; }
+    .artifact:last-child { margin-bottom: 0; }
+    .artifact-name { font-weight: 600; margin-bottom: 6px; }
+    .artifact-path { color: #475569; font-size: 12px; word-break: break-all; }
+    .artifact-image img { display: block; width: 320px; max-width: 100%; border: 1px solid #cbd5e1; border-radius: 8px; margin-bottom: 6px; background: #fff; }
+  </style>
+</head>
+<body>
+  <h1>首页自动化独立脚本测试报告</h1>
+  <div class="summary">
+    <p>生成时间: <code>2026-04-08 16:25:44</code></p>
+    <p>目标地址: <code>https://192.168.88.231:19025/#/globalOverview/index</code></p>
+    <p>执行结果: 通过 0 条，失败 3 条</p>
+    <p>首页路由等待: 首页路由已就绪</p>
+    <p>首页内容等待: 首页核心文本已渲染</p>
+    <p>失败重跑次数上限: 1</p>
+  </div>
+  <table>
+    <thead>
+      <tr>
+        <th>用例ID</th>
+        <th>测试项</th>
+        <th>状态</th>
+        <th>耗时(s)</th>
+        <th>预期</th>
+        <th>实际</th>
+        <th>页面地址</th>
+        <th>警告</th>
+        <th>产物</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+            <tr class="failed">
+              <td>TC-HOME-007</td>
+              <td>发电量总览展示及异常场景验证</td>
+              <td>failed</td>
+              <td>0.0</td>
+              <td>1.正常场景：发电量总览指标完整展示，数值与数据源一致，单位显示正确（如发电量 MWh、功率 MW）
+2.异常场景：指标为空或接口异常时，页面展示友好的空状态提示，无崩溃或布局错乱</td>
+              <td>Page.screenshot: Timeout 180000ms exceeded.
+Call log:
+  - taking page screenshot
+  - waiting for fonts to load...
+</td>
+              <td>https://192.168.88.231:19025/#/globalOverview/index</td>
+              <td>-</td>
+              <td>-</td>
+            </tr>
+            
+            <tr class="failed">
+              <td>TC-HOME-011</td>
+              <td>光伏机组信息展示+汇总逻辑</td>
+              <td>failed</td>
+              <td>0.0</td>
+              <td>页面展示装机容量、辐照度、实时功率、装机台数四项指标；每项均有名称、数值、单位；两个区域同时展示且互不覆盖；对应指标单位正确；无字段串位或重复展示</td>
+              <td>Page.screenshot: Timeout 180000ms exceeded.
+Call log:
+  - taking page screenshot
+  - waiting for fonts to load...
+</td>
+              <td>https://192.168.88.231:19025/#/globalOverview/index</td>
+              <td>-</td>
+              <td>-</td>
+            </tr>
+            
+            <tr class="failed">
+              <td>TC-HOME-014</td>
+              <td>集控数据接口异常</td>
+              <td>failed</td>
+              <td>0.0</td>
+              <td>1.正常场景：节能减排指标二氧化硫、二氧化碳、标准煤三项指标完整展示，数值与数据源一致，单位显示正确
+2.异常场景：集控接口异常时，页面展示容错提示，无报错或布局错乱，不影响其他模块使用</td>
+              <td>Page.screenshot: Timeout 180000ms exceeded.
+Call log:
+  - taking page screenshot
+  - waiting for fonts to load...
+</td>
+              <td>https://192.168.88.231:19025/#/globalOverview/index</td>
+              <td>-</td>
+              <td>-</td>
+            </tr>
+            
+    </tbody>
+  </table>
+</body>
+</html>

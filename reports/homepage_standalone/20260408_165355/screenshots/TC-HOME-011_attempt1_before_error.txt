@@ -1,0 +1,14 @@
+TC-HOME-011 attempt 1 before 截图失败
+页面地址: https://192.168.88.231:19025/#/globalOverview/index
+整页截图错误: Page.screenshot: Timeout 30000ms exceeded.
+Call log:
+  - taking page screenshot
+    - disabled all CSS animations
+  - waiting for fonts to load...
+
+视口截图错误: Page.screenshot: Timeout 15000ms exceeded.
+Call log:
+  - taking page screenshot
+    - disabled all CSS animations
+  - waiting for fonts to load...
+
