@@ -26,21 +26,21 @@ jobs:
           pip install -r requirements.txt
           python -m playwright install --with-deps
 
-      - name: Run script
+      - name: Run homepage standalone script
         run: |
           python tests/test_homepage_standalone.py
 
-      - name: List files
+      - name: List report files
         if: always()
         run: |
           pwd
           ls -la
-          find . -name "*.html"
+          find . -path "*homepage_standalone*" -type f
 
-      - name: Upload test report
+      - name: Upload homepage report directory
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: test-report
-          path: Test_Report.html
+          name: homepage-report
+          path: reports/homepage_standalone/
           if-no-files-found: warn
